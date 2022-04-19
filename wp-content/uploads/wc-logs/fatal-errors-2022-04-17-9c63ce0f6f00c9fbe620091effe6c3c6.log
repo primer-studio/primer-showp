@@ -1,0 +1,655 @@
+2022-04-17T05:42:27+00:00 CRITICAL Uncaught Error: Undefined constant "‘after_setup_theme’" in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\functions.php:8
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-settings.php(555): include()
+#1 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\functions.php روی خط 8
+
+2022-04-17T06:26:22+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php:11
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php روی خط 11
+
+2022-04-17T06:26:41+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php:11
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php روی خط 11
+
+2022-04-17T06:29:32+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php:13
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php روی خط 13
+
+2022-04-17T06:30:01+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_thumbnail() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php:13
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php روی خط 13
+
+2022-04-17T06:34:37+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($var) must be of type Countable|array, bool given in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php:18
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php روی خط 18
+
+2022-04-17T06:44:23+00:00 CRITICAL syntax error, unexpected token "return" در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php روی خط 3
+
+2022-04-17T07:14:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_taxonomy_Item(), 1 passed in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): custom_taxonomy_Item('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 14
+
+2022-04-17T07:14:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_taxonomy_Item(), 1 passed in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): custom_taxonomy_Item('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 14
+
+2022-04-17T07:14:50+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_taxonomy_Item(), 1 passed in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): custom_taxonomy_Item('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 14
+
+2022-04-17T07:16:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_taxonomy_Item(), 1 passed in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): custom_taxonomy_Item('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 14
+
+2022-04-17T07:16:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_taxonomy_Item(), 1 passed in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): custom_taxonomy_Item('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 14
+
+2022-04-17T07:16:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_taxonomy_Item(), 1 passed in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): custom_taxonomy_Item('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 14
+
+2022-04-17T07:18:14+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_taxonomy_Item(), 1 passed in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): custom_taxonomy_Item('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 14
+
+2022-04-17T07:18:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_taxonomy_Item(), 1 passed in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): custom_taxonomy_Item('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 14
+
+2022-04-17T07:20:15+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_taxonomy_Item(), 1 passed in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): custom_taxonomy_Item('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 14
+
+2022-04-17T07:20:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_taxonomy_Item(), 1 passed in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): custom_taxonomy_Item('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 14
+
+2022-04-17T07:22:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_taxonomy_Item(), 1 passed in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): custom_taxonomy_Item('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 14
+
+2022-04-17T07:24:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_taxonomy_Item(), 1 passed in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): custom_taxonomy_Item('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 14
+
+2022-04-17T07:26:18+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_taxonomy_Item(), 1 passed in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): custom_taxonomy_Item('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 14
+
+2022-04-17T07:28:19+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_taxonomy_Item(), 1 passed in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): custom_taxonomy_Item('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 14
+
+2022-04-17T07:30:20+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_taxonomy_Item(), 1 passed in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): custom_taxonomy_Item('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 14
+
+2022-04-17T07:32:21+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_taxonomy_Item(), 1 passed in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): custom_taxonomy_Item('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 14
+
+2022-04-17T07:34:22+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_taxonomy_Item(), 1 passed in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): custom_taxonomy_Item('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 14
+
+2022-04-17T07:36:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_taxonomy_Item(), 1 passed in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): custom_taxonomy_Item('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 14
+
+2022-04-17T07:38:24+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_taxonomy_Item(), 1 passed in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): custom_taxonomy_Item('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 14
+
+2022-04-17T07:40:25+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_taxonomy_Item(), 1 passed in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): custom_taxonomy_Item('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 14
+
+2022-04-17T07:42:26+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_taxonomy_Item(), 1 passed in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): custom_taxonomy_Item('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 14
+
+2022-04-17T07:52:28+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php:11
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php(28): get_product_taxonomies(Object(WC_Product_Simple), 'translator')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php روی خط 11
+
+2022-04-17T08:21:28+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php:10
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php(17): get_product_taxonomies('%d8%b1%d9%85%d8...', 'authors')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php روی خط 10
+
+2022-04-17T08:21:37+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php:10
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php(17): get_product_taxonomies('%d8%b1%d9%85%d8...', 'authors')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php روی خط 10
+
+2022-04-17T08:22:16+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php:3
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php روی خط 3
+
+2022-04-17T08:22:44+00:00 CRITICAL Uncaught Error: Call to undefined function get_id() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php:3
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php روی خط 3
+
+2022-04-17T08:22:56+00:00 CRITICAL Uncaught Error: Call to undefined function get_ID() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php:3
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php روی خط 3
+
+2022-04-17T08:23:20+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_product_taxonomies(), 0 passed in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php on line 18 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php:9
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php(18): get_product_taxonomies()
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php روی خط 9
+
+2022-04-17T08:40:30+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_get_product_terms(), 1 passed in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php on line 5 and at least 2 expected in C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-term-functions.php:176
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php(5): wc_get_product_terms(70)
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-term-functions.php روی خط 176
+
+2022-04-17T08:42:10+00:00 CRITICAL Uncaught TypeError: Illegal offset type in isset or empty in C:\xampp\htdocs\ketabShop\wp-includes\taxonomy.php:338
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-term-functions.php(177): taxonomy_exists(Array)
+#1 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php(5): wc_get_product_terms(70, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-includes\taxonomy.php روی خط 338
+
+2022-04-17T08:44:32+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_terms() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php:5
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php روی خط 5
+
+2022-04-17T08:45:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 1 passed in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php on line 5 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-includes\category-template.php:1274
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php(5): get_the_terms(Object(WC_Product_Simple))
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-includes\category-template.php روی خط 1274
+
+2022-04-17T08:47:47+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_product_taxonomies() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php:5
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php روی خط 5
+
+2022-04-17T08:48:59+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_get_product_terms(), 1 passed in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php on line 5 and at least 2 expected in C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-term-functions.php:176
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php(5): wc_get_product_terms(Object(WC_Product_Simple))
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-term-functions.php روی خط 176
+
+2022-04-17T08:55:59+00:00 CRITICAL Uncaught Error: Undefined constant "var_dump" in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php:6
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php روی خط 6
+
+2022-04-17T09:07:31+00:00 CRITICAL Uncaught Error: Call to undefined function the_price() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php:43
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php روی خط 43
+
+2022-04-17T09:49:08+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "admin_bar" not found or invalid function name in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\ketabShop\wp-settings.php(587): do_action('init')
+#3 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php روی خط 307
+
+2022-04-17T09:52:41+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_taxonomies() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php:27
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php روی خط 27
+
+2022-04-17T10:05:22+00:00 CRITICAL Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php:44
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php(44): number_format('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php روی خط 44
+
+2022-04-17T10:09:58+00:00 CRITICAL Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php:44
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php(44): number_format('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php روی خط 44
+
+2022-04-17T10:10:20+00:00 CRITICAL Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php:44
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php(44): number_format('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php روی خط 44
+
+2022-04-17T10:10:53+00:00 CRITICAL Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php:44
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php(44): number_format('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php روی خط 44
+
+2022-04-17T10:18:25+00:00 CRITICAL Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php:44
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php(44): number_format('')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php روی خط 44
+
+2022-04-17T10:30:16+00:00 CRITICAL Uncaught Error: Call to undefined function helper_is_purchasable() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php:38
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php روی خط 38
+
+2022-04-17T10:30:29+00:00 CRITICAL Uncaught Error: Call to undefined function helper_is_product_purchasable() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php:38
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php روی خط 38
+
+2022-04-17T10:30:49+00:00 CRITICAL Uncaught Error: Call to undefined function helper_is_product_purchasable() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php:38
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php روی خط 38
+
+2022-04-17T10:41:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function helper_is_product_purchasable(), 0 passed in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php on line 26 and exactly 1 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php:28
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php(26): helper_is_product_purchasable()
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php روی خط 28
+
+2022-04-17T10:42:04+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function helper_is_product_purchasable(), 0 passed in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php on line 26 and exactly 1 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php:28
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php(26): helper_is_product_purchasable()
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php روی خط 28
+
+2022-04-17T10:42:29+00:00 CRITICAL Uncaught Error: Call to undefined function is_purchasable() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php:29
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php(26): helper_is_product_purchasable(Object(WC_Product_Simple))
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php روی خط 29
+
+2022-04-17T10:42:44+00:00 CRITICAL Uncaught Error: Call to undefined function is_purchasable() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php:29
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php(26): helper_is_product_purchasable(Object(WC_Product_Simple))
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php روی خط 29
+
+2022-04-17T10:43:21+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function helper_is_product_purchasable(), 0 passed in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php on line 38 and exactly 1 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php:28
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php(38): helper_is_product_purchasable()
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php روی خط 28
+
+2022-04-17T10:43:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function helper_is_product_purchasable(), 0 passed in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php on line 39 and exactly 1 expected in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php:28
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php(39): helper_is_product_purchasable()
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php روی خط 28
+
+2022-04-17T10:45:49+00:00 CRITICAL Uncaught Error: Non-static method WC_Product::is_purchasable() cannot be called statically in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php:29
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php(38): helper_is_product_purchasable(Object(WC_Product_Simple))
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php روی خط 29
+
+2022-04-17T10:47:54+00:00 CRITICAL Uncaught Error: Call to undefined function is_purchasable() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php:46
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php روی خط 46
+
+2022-04-17T10:49:20+00:00 CRITICAL Uncaught Error: Call to a member function is_purchasable() on null in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php:30
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php(26): helper_is_product_purchasable(Object(WC_Product_Simple))
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php روی خط 30
+
+2022-04-17T11:03:53+00:00 CRITICAL Uncaught Error: Call to a member function managing_stock() on null in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php:33
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php(26): helper_is_product_purchasable(Object(WC_Product_Simple))
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php روی خط 33
+
+2022-04-17T11:35:24+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\translation.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php(62): __translate_array('fa', 'tags', NULL, ': ')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\translation.php روی خط 74
+
+2022-04-17T11:54:11+00:00 CRITICAL syntax error, unexpected token "<" در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\single-product.php روی خط 56
+
+2022-04-17T15:55:52+00:00 CRITICAL Uncaught Error: Call to undefined function wc_taxonomy_title() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php:11
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php روی خط 11
+
+2022-04-17T16:00:10+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_page_description() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php:16
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php روی خط 16
+
+2022-04-17T16:26:49+00:00 CRITICAL Uncaught Error: Call to undefined function taxonomy_images_queried_term_image() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php:8
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php روی خط 8
+
+2022-04-17T16:27:46+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php on line 7 and exactly 2 expected in C:\xampp\htdocs\ketabShop\wp-includes\plugin.php:163
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php(7): apply_filters('taxonomy-images...')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-includes\plugin.php روی خط 163
+

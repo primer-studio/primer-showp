@@ -1,0 +1,3421 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sway\n"
+"POT-Creation-Date: 2021-06-18 17:18+0300\n"
+"PO-Revision-Date: 2021-09-03 00:28+0430\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;_n;_x;_ex;_nx;_n_noop;_nx_noop;"
+"esc_html__;esc_html_e;esc_html_x;esc_attr__;esc_attr_e;esc_attr_x\n"
+"Last-Translator: \n"
+"Language: fa_IR\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:22
+#, fuzzy
+msgid "404 - Page Not Found"
+msgstr "صفحه 404"
+
+#: 404.php:23
+#, fuzzy
+msgid "The page you are looking for does not exist."
+msgstr ""
+"با عرض پوزش ، صفحه مورد نظر شما وجود ندارد ، حذف شده است یا نام تغییر کرده "
+"است"
+
+#: 404.php:24
+#, fuzzy
+msgid "Back to homepage"
+msgstr "بازگشت به صفحه خانه"
+
+#: comments.php:14
+#, fuzzy
+msgid "Comments"
+msgstr "نظر"
+
+#: comments.php:17 comments.php:33
+msgid "Comment navigation"
+msgstr "ناوبری  نظرات"
+
+#: comments.php:18 comments.php:34
+msgid "&larr; Older Comments"
+msgstr "نظرات قدیمی تر"
+
+#: comments.php:19 comments.php:35
+msgid "Newer Comments &rarr;"
+msgstr "نظر جدیدتر"
+
+#: comments.php:41
+msgid "Comments are closed."
+msgstr "نظرات بسته شده اند"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:334
+#: core/theme-activation.php:77
+msgid "Install Required Plugins"
+msgstr "نصب افزونه های الزامی"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "نصب افزونه ها"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:337
+#: core/theme-activation.php:79
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "نصب افزونه: %s"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "بروزرسانی افزونه: %s"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:340
+#: core/theme-activation.php:80
+msgid "Something went wrong with the plugin API."
+msgstr "در API افزونه اشتباه رخ داد."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:343
+#: core/theme-activation.php:81
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr "پلاگین های زیر برای این پوسته ضروری است: %1$s."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:349
+#: core/theme-activation.php:82
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr "پلاگین های زیر برای این پوسته پیشنهاد می شود: %1$s."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:355
+#: core/theme-activation.php:87
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr "افزونه های زیر نیاز به بروزرسانی دارند: %1$s."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgstr "به روزرسانی  افزونه های زیر موجود است:%1$s."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:367
+#: core/theme-activation.php:84
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr "پلاگین های مورد نیاز غیر فعال می باشند: %1$s."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:373
+#: core/theme-activation.php:85
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr "افزونه های پیشنهاد شده برای  این پوسته غیر فعال می باشند: %1$s."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:378
+#: core/theme-activation.php:89
+msgid "Begin installing plugin"
+msgstr "شروع نصب افزونه ها"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgstr "شروع به روزرسانی افزونه کنید"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgstr "شروع به فعال سازی افزونه کنید"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:392
+#: core/theme-activation.php:91
+msgid "Return to Required Plugins Installer"
+msgstr "بازگشت برای نصب افزونه مورد نیاز است"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:393
+#: core/assets/extra/class-tgm-plugin-activation.php:917
+#: core/assets/extra/class-tgm-plugin-activation.php:2623
+#: core/assets/extra/class-tgm-plugin-activation.php:3670
+msgid "Return to the Dashboard"
+msgstr "بازگشت به صفحه"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:394
+#: core/assets/extra/class-tgm-plugin-activation.php:3249
+#: core/theme-activation.php:92
+msgid "Plugin activated successfully."
+msgstr "افزونه با موفقیت فعال شد "
+
+#: core/assets/extra/class-tgm-plugin-activation.php:395
+#: core/assets/extra/class-tgm-plugin-activation.php:3042
+msgid "The following plugin was activated successfully:"
+msgstr "افزونه زیر با موفقیت فعال شد:"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "اقدامی انجام نشده است پلاگین %1$s از قبل فعال بود."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"افزونه فعال نمی شود. نسخه بالاتر%sبرای این موضوع مورد نیاز است لطفاً افزونه "
+"را به روز کنید."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "همه افزونه ها با موفقیت نصب و فعال شدند.%s"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "این اعلامیه را رد کنید"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"یک یا چند افزونه مورد نیاز یا توصیه شده برای نصب ، به روزرسانی یا فعال سازی "
+"وجود دارد."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "لطفا برای دریافت راهنمایی با سرپرست این سایت تماس بگیرید."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "این افزونه برای سازگاری با موضوع شما نیاز به بروزرسانی دارد."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "به روزرسانی نیاز است"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:1024
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"بسته افزونه از راه دور حاوی پوشه ای با اسلاگ مورد نظر نیست و تغییر نام کار "
+"نمی کند."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:1024
+#: core/assets/extra/class-tgm-plugin-activation.php:1027
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"لطفاً با ارائه دهنده افزونه تماس بگیرید و از آنها بخواهید افزونه خود را طبق "
+"دستورالعمل های وردپرس بسته بندی کنند."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"بسته افزونه راه دور از بیش از یک پرونده تشکیل شده است ، اما پرونده ها در یک "
+"پوشه بسته بندی نمی شوند."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:1211
+#: core/assets/extra/class-tgm-plugin-activation.php:3038
+msgid "and"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2072
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2363
+msgid "Required"
+msgstr "الزامی"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2366
+msgid "Recommended"
+msgstr "پیشنهاد شده"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2382
+msgid "WordPress Repository"
+msgstr "مخزن وردپرس"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2385
+msgid "External Source"
+msgstr "منبع خارجی"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2388
+msgid "Pre-Packaged"
+msgstr "پیش بسته بندی شده"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2405
+msgid "Not Installed"
+msgstr "نصب نشده"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2409
+msgid "Installed But Not Activated"
+msgstr "نصب شده اما فعال نشده است"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2411
+msgid "Active"
+msgstr "فـعال"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2417
+msgid "Required Update not Available"
+msgstr "بروزرسانی لازم در دسترس نیست"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2420
+msgid "Requires Update"
+msgstr "نیاز به بروزرسانی دارد"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2423
+msgid "Update recommended"
+msgstr "به روز رسانی توصیه می شود"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2432
+#, fuzzy, php-format
+msgid "%1$s, %2$s"
+msgstr " %1$s, %2$s"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2478
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr "همه <span class=\"count\">(%s)</span>"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2482
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr "To Install <span class=\"count\">(%s)</span>"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2486
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr "بروزرسانی در دسترس <span class=\"count\">(%s)</span>"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2490
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr "فعال کردن <span class=\"count\">(%s)</span>"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2572
+msgid "unknown"
+msgstr "ناشناخته"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2580
+msgid "Installed version:"
+msgstr "نصب افزونه ها :"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2588
+msgid "Minimum required version:"
+msgstr "حداقل نسخه مورد نیاز:"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2600
+msgid "Available version:"
+msgstr "نسخه موجود:"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2623
+msgid "No plugins to install, update or activate."
+msgstr "افزونه ای برای نصب ، بروزرسانی یا فعال سازی وجود ندارد."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2637
+msgid "Plugin"
+msgstr "پلاگین"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2638
+msgid "Source"
+msgstr "Source"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2639
+msgid "Type"
+msgstr "نوع"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2643
+msgid "Version"
+msgstr "نسخه"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2644
+msgid "Status"
+msgstr "وضعیت"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Install %2$s"
+msgstr "نصب %2$s"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2698
+#, php-format
+msgid "Update %2$s"
+msgstr "به روز رسانی %2$s"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2704
+#, php-format
+msgid "Activate %2$s"
+msgstr "فعال کنید%2$s"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2774
+msgid "Upgrade message from the plugin author:"
+msgstr "پیام را از نویسنده افزونه ارتقا دهید:"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2807
+msgid "Install"
+msgstr "نصب "
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2813
+msgid "Update"
+msgstr "بروز رسانی"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2816
+msgid "Activate"
+msgstr "فعال کنید"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2847
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "هیچ افزونه ای برای نصب انتخاب نشده است. اقدامی انجام نشده است."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2849
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "هیچ افزونه ای برای بروزرسانی انتخاب نشده است. اقدامی انجام نشده است."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2890
+msgid "No plugins are available to be installed at this time."
+msgstr "در حال حاضر هیچ افزونه ای برای نصب وجود ندارد."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2892
+msgid "No plugins are available to be updated at this time."
+msgstr "در حال حاضر هیچ افزونه ای برای بروزرسانی در دسترس نیست."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2998
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "هیچ افزونه ای برای فعال شدن انتخاب نشده است. اقدامی انجام نشده است."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3024
+msgid "No plugins are available to be activated at this time."
+msgstr "هیچ افزونه ای در حال حاضر فعال نشده است."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3248
+msgid "Plugin activation failed."
+msgstr "پلاگین با موفقیت فعال شد"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "افزونه را به روز می کنید%1$s (%2$d/%3$d)"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "هنگام نصب خطایی روی داد %1$s: <strong>%2$s</strong>."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3593
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "نصب %1$s ناموفق"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3597
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"مراحل نصب و فعال سازی شروع می شود. این روند ممکن است در برخی میزبان ها مدتی "
+"طول بکشد ، بنابراین لطفاً صبور باشید."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3599
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "همه افزونه ها با موفقیت نصب و فعال شدند.%s"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3600
+msgid "All installations and activations have been completed."
+msgstr "تمام نصب ها و فعال سازی ها به اتمام رسیده است."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "افزونه نصب و فعال سازی%1$s (%2$d/%3$d)"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3605
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"مراحل نصب شروع می شود. این روند ممکن است در برخی میزبان ها مدتی طول بکشد ، "
+"بنابراین لطفاً صبور باشید."
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3607
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s با موفقیت نصب شد"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3608
+msgid "All installations have been completed."
+msgstr "تمام مراحل نصب تمام شده است"
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "نصب افزونه %1$s (%2$d/%3$d)"
+
+#: core/helper-functions.php:78
+msgid "Search for:"
+msgstr "جستجو برای:"
+
+#: core/helper-functions.php:79
+msgid "Search &hellip;"
+msgstr "جستجو &hellip;"
+
+#: core/init.php:137
+#, fuzzy
+msgid "Header Menu"
+msgstr "منوی سربرگ"
+
+#: core/init.php:138
+#, fuzzy
+msgid "Topbar Menu"
+msgstr "نوار بالا"
+
+#: core/init.php:139
+msgid "Footer Menu"
+msgstr "منو پاورقی"
+
+#: core/options-init.php:20 core/options-init.php:21
+msgid "Theme Options"
+msgstr "تنظیمات قالب"
+
+#: core/options-init.php:41
+msgid "Business Info"
+msgstr "اطلاعات کسب و کار"
+
+#: core/options-init.php:42
+msgid ""
+"Edit the contact details for your company/organization. These details are "
+"listed in Theme Options > Header > Topbar / Popup Modal / Side Panel."
+msgstr ""
+
+#: core/options-init.php:47
+#, fuzzy
+msgid "Business Phone"
+msgstr "ادعای این کسب و کار"
+
+#: core/options-init.php:54
+#, fuzzy
+msgid "Secondary Business Phone"
+msgstr "تلفن"
+
+#: core/options-init.php:61
+msgid "Business Email"
+msgstr "ایمیل کاری"
+
+#: core/options-init.php:68
+#, fuzzy
+msgid "Business Opening Hours"
+msgstr "ساعت"
+
+#: core/options-init.php:83
+msgid "Global Options"
+msgstr "تنظیمات عمومی"
+
+#: core/options-init.php:88
+msgid "Global Settings"
+msgstr "Global Settings"
+
+#: core/options-init.php:89
+msgid "General settings that are applied site-wide."
+msgstr ""
+
+#: core/options-init.php:95
+#, fuzzy
+msgid "Smooth Mouse Scroll"
+msgstr "سربرگ را در زمان اسکرول ماوس حفظ کنید"
+
+#: core/options-init.php:96
+msgid ""
+"Turn on to replace basic website scrolling effect with nice smooth scroll."
+msgstr ""
+
+#: core/options-init.php:102
+#, fuzzy
+msgid "Go to Top Button"
+msgstr "دکمه ی بازگشت به بالا"
+
+#: core/options-init.php:103
+msgid ""
+"Enable/Disable a \"Go to top\" button in the right bottom corner the page."
+msgstr ""
+
+#: core/options-init.php:109
+#, fuzzy
+msgid "Go to Top Button Position"
+msgstr "موقعیت آیکون دکمه"
+
+#: core/options-init.php:110
+msgid "Control the position of the \"Go to top\" button."
+msgstr ""
+
+#: core/options-init.php:120
+#, fuzzy
+msgid "Google Map API Key"
+msgstr "کلیدا API نقشه گوگل"
+
+#: core/options-init.php:122
+msgid "Generate, copy and paste here Google Maps API Key."
+msgstr ""
+
+#: core/options-init.php:128
+#, fuzzy
+msgid "Disable Animations on Mobile"
+msgstr "غیرفعال "
+
+#: core/options-init.php:129
+msgid "Turn on/off element animation on mobile."
+msgstr ""
+
+#: core/options-init.php:135
+msgid "Favicon"
+msgstr "فاویکون"
+
+#: core/options-init.php:143
+#, fuzzy
+msgid "Color Schemes"
+msgstr "طرح رنگ"
+
+#: core/options-init.php:144 core/options-init.php:197
+msgid "General color schemes that are applied site-wide."
+msgstr ""
+
+#: core/options-init.php:151
+#, fuzzy
+msgid "Primary Accent Color"
+msgstr "رنگ حساب کاربری کشویی"
+
+#: core/options-init.php:152
+#, fuzzy
+msgid "Option for setting the primary color of the theme."
+msgstr "رنگ اصلی (پیش فرض در تنظیمات قالب)"
+
+#: core/options-init.php:160
+#, fuzzy
+msgid "Secondary Accent Color"
+msgstr "رنگ حساب کاربری کشویی"
+
+#: core/options-init.php:161
+#, fuzzy
+msgid "Option for setting the secondary color of the theme."
+msgstr "رنگ اصلی (پیش فرض در تنظیمات قالب)"
+
+#: core/options-init.php:169 core/options-init.php:2683
+#, fuzzy
+msgid "Title Bar Background Color"
+msgstr "رنگ پس زمینه نوار پایین"
+
+#: core/options-init.php:171
+msgid ""
+"Select the background color used for the single pages title bar section."
+msgstr ""
+
+#: core/options-init.php:178 core/options-init.php:2692
+#, fuzzy
+msgid "Title Bar Text Color"
+msgstr "رنگ متن نوار پایین"
+
+#: core/options-init.php:180
+#, fuzzy
+msgid "Select the single page title color."
+msgstr "عنوان پست صفحات رنگ پست"
+
+#: core/options-init.php:186
+#, fuzzy
+msgid "Links Color"
+msgstr "رنگ لینک بدنه"
+
+#: core/options-init.php:187
+msgid "Normal and hover states of default links."
+msgstr ""
+
+#: core/options-init.php:196 core/options-init.php:203
+msgid "Preloader"
+msgstr "پیش بارگذاری"
+
+#: core/options-init.php:204
+msgid "Enable/Disable a preloader screen before loading the page."
+msgstr ""
+
+#: core/options-init.php:211
+msgid "Preloader Background Color"
+msgstr "رتگ پس زمینه پیش بارگذاری"
+
+#: core/options-init.php:212
+#, fuzzy
+msgid "Edit preloader background color."
+msgstr "رتگ پس زمینه پیش بارگذاری"
+
+#: core/options-init.php:221
+#, fuzzy
+msgid "Preloader Image"
+msgstr "پیش بارگذاری"
+
+#: core/options-init.php:222
+#, fuzzy
+msgid "Upload preloader image/logo."
+msgstr "بارگذاری تصاویر لوگو و وارد کردن لینک لوگو"
+
+#: core/options-init.php:229
+#, fuzzy
+msgid "Preloader Image Size"
+msgstr "اندازه تصویر آواتار"
+
+#: core/options-init.php:230
+msgid "Control the preloader image size (pixel value). Example: 200."
+msgstr ""
+
+#: core/options-init.php:237
+#, fuzzy
+msgid "Preloader Mobile Image Size"
+msgstr "اندازه تصویر آواتار"
+
+#: core/options-init.php:238
+msgid ""
+"Control the preloader image size on mobile devices (pixel value). Example: "
+"140."
+msgstr ""
+
+#: core/options-init.php:246
+msgid "Header"
+msgstr "سربرگ"
+
+#: core/options-init.php:251
+#, fuzzy
+msgid "Header Bar"
+msgstr "نوار اسکرول"
+
+#: core/options-init.php:252
+msgid "Edit header bar general settings."
+msgstr ""
+
+#: core/options-init.php:258
+#, fuzzy
+msgid "Header Bar Settings"
+msgstr "تنظیمات سربرگ"
+
+#: core/options-init.php:264
+#, fuzzy
+msgid "Header Bar Width"
+msgstr "عرض نوار اسکرول"
+
+#: core/options-init.php:265
+msgid "Control the width of your main navigation menu:  Contained/Full Width."
+msgstr ""
+
+#: core/options-init.php:275
+#, fuzzy
+msgid "Header Bar Behaviour"
+msgstr "رنگ پس زمینه نوار پایین"
+
+#: core/options-init.php:276
+msgid "select the header behavior when scrolling down the page"
+msgstr ""
+
+#: core/options-init.php:286
+#, fuzzy
+msgid "Header Bar Spacing"
+msgstr "Spacing"
+
+#: core/options-init.php:287
+msgid "Control the top and bottom padding for the header bar. Pixel value."
+msgstr ""
+
+#: core/options-init.php:296
+#, fuzzy
+msgid "Header Bar Background Color"
+msgstr "رنگ پس زمینه نوار پایین"
+
+#: core/options-init.php:297
+msgid "Select the background color for the fixed menu bar."
+msgstr ""
+
+#: core/options-init.php:305
+#, fuzzy
+msgid "Sticky Header Bar Background Color"
+msgstr "زنگ پس زمینه نوار دستی"
+
+#: core/options-init.php:306
+msgid "Select the background color for the sticky menu bar."
+msgstr ""
+
+#: core/options-init.php:319
+#, fuzzy
+msgid "Header Bar Icons"
+msgstr "Icons"
+
+#: core/options-init.php:325
+msgid "Search Icon"
+msgstr "آیکون جستجو"
+
+#: core/options-init.php:326
+#, fuzzy
+msgid "Turn on/off the search icon"
+msgstr "با این کار می توانید بنر را روشن یا خاموش کنید."
+
+#: core/options-init.php:332 core/options-init.php:339
+#, fuzzy
+msgid "Cart Icon"
+msgstr "نمایش آیکون سبد خرید"
+
+#: core/options-init.php:333
+#, fuzzy
+msgid "Turn on/off the cart icon."
+msgstr "خاموش / روشن کردن نوار بالا و تغییر استایل آن"
+
+#: core/options-init.php:340
+#, fuzzy
+msgid "Change cart icon style."
+msgstr "استایل آیکون"
+
+#: core/options-init.php:352
+#, fuzzy
+msgid "Wishlist Icon"
+msgstr "علاقه مندی"
+
+#: core/options-init.php:353
+#, fuzzy
+msgid "Turn on/off the wishlist icon."
+msgstr "خاموش / روشن کردن نوار بالا و تغییر استایل آن"
+
+#: core/options-init.php:366
+msgid "Logo"
+msgstr "لوگو"
+
+#: core/options-init.php:367
+#, fuzzy
+msgid "General logo settings."
+msgstr "تنظیمات > عمومی"
+
+#: core/options-init.php:373
+#, fuzzy
+msgid "Logo Alignment"
+msgstr "تراز بردکامب"
+
+#: core/options-init.php:374
+#, fuzzy
+msgid "Control the position of the logo."
+msgstr "فعال کردن کنترل پست"
+
+#: core/options-init.php:375
+msgid "If set to \"Center\" the main menu will be automatically centered."
+msgstr ""
+
+#: core/options-init.php:389
+#, fuzzy
+msgid "Logo Spacing"
+msgstr "Spacing"
+
+#: core/options-init.php:390
+msgid "Control the top and bottom padding for the logo element."
+msgstr ""
+
+#: core/options-init.php:399
+msgid "Logo Type"
+msgstr "نوع لوگو"
+
+#: core/options-init.php:400
+#, fuzzy
+msgid "Select the logo type: Text/Image."
+msgstr "شما می توانید متن یا تصویر لوگو را تنظیم کنید"
+
+#: core/options-init.php:413
+#, fuzzy
+msgid "Primary Image Logo"
+msgstr "وارد کردن تصویر لوگو"
+
+#: core/options-init.php:414
+msgid "Upload primary logo image. This logo is used with the fixed header bar."
+msgstr ""
+
+#: core/options-init.php:422
+#, fuzzy
+msgid "Secondary Image Logo"
+msgstr "ثانوی"
+
+#: core/options-init.php:423
+#, fuzzy
+msgid "Upload secondary image logo."
+msgstr "بارگذاری تصاویر لوگو و وارد کردن لینک لوگو"
+
+#: core/options-init.php:429
+#, fuzzy
+msgid "Sticky Header Logo Image"
+msgstr "لوگو چسبنده"
+
+#: core/options-init.php:430
+msgid "Select logo image for the sticky header bar."
+msgstr ""
+
+#: core/options-init.php:445
+#, fuzzy
+msgid "Transparent Header Logo Image"
+msgstr "لوگو شفاف"
+
+#: core/options-init.php:446
+msgid "Select logo image for the transparent header bar."
+msgstr ""
+
+#: core/options-init.php:459
+#, fuzzy
+msgid "Logo Size"
+msgstr "اندازه فونت لوگو"
+
+#: core/options-init.php:460
+msgid "Control the logo width (pixels value). Example: 200."
+msgstr ""
+
+#: core/options-init.php:467
+#, fuzzy
+msgid "Mobile Logo Size"
+msgstr "لوگو موبایل"
+
+#: core/options-init.php:468
+msgid "Control the mobile logo width (pixels value). Example: 140."
+msgstr ""
+
+#: core/options-init.php:474
+msgid "Text Logo"
+msgstr "متن لوگو "
+
+#: core/options-init.php:475
+msgid "Name of your website displayed instead of the regular image logo"
+msgstr ""
+
+#: core/options-init.php:482
+#, fuzzy
+msgid "Text Logo Font Settings"
+msgstr "تنظیمات قلم مورد متن لوگو"
+
+#: core/options-init.php:483
+msgid "Edit the typography settings of your text logo."
+msgstr ""
+
+#: core/options-init.php:501
+#, fuzzy
+msgid "Primary Logo Text Color"
+msgstr "انتخاب رنگ برای رنگ اصلی"
+
+#: core/options-init.php:502
+#, fuzzy
+msgid "Default logo text color"
+msgstr "لوگو پیش فرض"
+
+#: core/options-init.php:511
+#, fuzzy
+msgid "Secondary Logo Text Color"
+msgstr "متن دوم کپی رایت"
+
+#: core/options-init.php:512
+msgid "Logo text color for sticky navigation"
+msgstr ""
+
+#: core/options-init.php:522
+#, fuzzy
+msgid "Main Menu"
+msgstr "منو اصلی"
+
+#: core/options-init.php:523
+#, fuzzy
+msgid "Edit main menu general settings."
+msgstr "تنظیمات فونت برای موارد منوی اصلی"
+
+#: core/options-init.php:529
+#, fuzzy
+msgid "Main Menu Settings"
+msgstr "تنظیمات فونت برای موارد منوی اصلی"
+
+#: core/options-init.php:535
+#, fuzzy
+msgid "Menu Alignment"
+msgstr "تراز بردکامب"
+
+#: core/options-init.php:536
+#, fuzzy
+msgid "Control the position of the main menu."
+msgstr "موقعیت منوی اصلی را انتخاب کنید"
+
+#: core/options-init.php:548
+#, fuzzy
+msgid "Menu Font Settings"
+msgstr "تنظیمات فونت برای موارد منوی اصلی"
+
+#: core/options-init.php:549
+#, fuzzy
+msgid "Control the typography settings of the menu."
+msgstr "تایپوگرافی زیر منو"
+
+#: core/options-init.php:572 core/options-init.php:634
+#, fuzzy
+msgid "Menu Link Color"
+msgstr "رنگ منو"
+
+#: core/options-init.php:573
+#, fuzzy
+msgid "Select the default menu text color."
+msgstr "برای تزئین منطقه منوی اصلی ، طرح رنگی را انتخاب کنید"
+
+#: core/options-init.php:581
+#, fuzzy
+msgid "Menu Link Hover Color"
+msgstr "شناور پیوند منوی چپ"
+
+#: core/options-init.php:582
+msgid "Select the default menu text color on mouse over."
+msgstr ""
+
+#: core/options-init.php:590
+#, fuzzy
+msgid "Sticky Menu Link Color"
+msgstr "منوی چسبنده"
+
+#: core/options-init.php:591
+#, fuzzy
+msgid "Select the sticky menu text color."
+msgstr "برای تزئین منطقه منوی اصلی ، طرح رنگی را انتخاب کنید"
+
+#: core/options-init.php:600
+#, fuzzy
+msgid "Sticky Menu Link Hover Color"
+msgstr "شناور پیوند منو ، فعال است"
+
+#: core/options-init.php:601
+msgid "Select the sticky menu text color on mouse over."
+msgstr ""
+
+#: core/options-init.php:609
+#, fuzzy
+msgid "Dropdown Menu Link Hover Effect"
+msgstr "شناور پیوند منو ، فعال است"
+
+#: core/options-init.php:610
+msgid "Select the hover effect on dropdown menu links."
+msgstr ""
+
+#: core/options-init.php:627
+#, fuzzy
+msgid "Transparent Navigation Options"
+msgstr "شفاف"
+
+#: core/options-init.php:635
+msgid "Navigation color when using a transparent background."
+msgstr ""
+
+#: core/options-init.php:649
+#, fuzzy
+msgid "Top Bar"
+msgstr "نوار بالا"
+
+#: core/options-init.php:650
+#, fuzzy
+msgid "Edit topbar general settings."
+msgstr "تنظیمات > عمومی"
+
+#: core/options-init.php:656
+#, fuzzy
+msgid "Enable Topbar"
+msgstr "فعال کردن نوار بالا کامل"
+
+#: core/options-init.php:657
+#, fuzzy
+msgid "Enable/Disable the topbar."
+msgstr "فعال کردن / غیر فعال کردن متن کپی رایت"
+
+#: core/options-init.php:663
+#, fuzzy
+msgid "Sticky Topbar"
+msgstr "چسبنده"
+
+#: core/options-init.php:665
+#, fuzzy
+msgid "Enable/Disable sticky topbar."
+msgstr "فعال کردن / غیر فعال کردن متن کپی رایت"
+
+#: core/options-init.php:671
+#, fuzzy
+msgid "Enable Topbar on Mobile"
+msgstr "فعال کردن نوار بالا کامل"
+
+#: core/options-init.php:673
+msgid "Show/hide the topbar  on mobile devices."
+msgstr ""
+
+#: core/options-init.php:679
+#, fuzzy
+msgid "Topbar Left Content"
+msgstr "محتوای نوار بالای چپ"
+
+#: core/options-init.php:680
+#, fuzzy
+msgid "Select the content for the topbar left section."
+msgstr "محتوای نوار بالای چپ"
+
+#: core/options-init.php:694
+#, fuzzy
+msgid "Topbar Right Content"
+msgstr "محتوای نوار بالای چپ"
+
+#: core/options-init.php:695
+msgid "Select the content for the topbar right section."
+msgstr ""
+
+#: core/options-init.php:709
+#, fuzzy
+msgid "Topbar Content Design"
+msgstr "طراح"
+
+#: core/options-init.php:710
+#, fuzzy
+msgid "Select the topbar content design."
+msgstr "محتوای نوار بالای چپ"
+
+#: core/options-init.php:722
+#, fuzzy
+msgid "Topbar Font Settings"
+msgstr "نوار بالا"
+
+#: core/options-init.php:723
+msgid "Select topbar font weight and size."
+msgstr ""
+
+#: core/options-init.php:739
+msgid "Topbar Background Color"
+msgstr "رنگ زمینه نوار بالا"
+
+#: core/options-init.php:740
+#, fuzzy
+msgid "Edit  topbar background."
+msgstr "بک گراند نوار بالا"
+
+#: core/options-init.php:749
+#, fuzzy
+msgid "Topbar Text Color"
+msgstr "رنگ حاشیه نوار بالا"
+
+#: core/options-init.php:750
+msgid "Edit  topbar text & links color."
+msgstr ""
+
+#: core/options-init.php:759
+#, fuzzy
+msgid "Topbar Text Hover Color"
+msgstr "رنگ متن دکمه در حالت هاور"
+
+#: core/options-init.php:760
+msgid "Edit  topbar links color on mouse over."
+msgstr ""
+
+#: core/options-init.php:770
+#, fuzzy
+msgid "Popup Modal"
+msgstr "عنوان مودال"
+
+#: core/options-init.php:771
+msgid ""
+"Control the settings of the popup modal used to display additional content "
+"on all pages and posts, without sacrificing space. The modal box can be "
+"triggered using the button displayed near the Main Menu. This button can "
+"also be used to open a new page or smooth scroll to a page section ID."
+msgstr ""
+
+#: core/options-init.php:777 core/options-init.php:1038
+#, fuzzy
+msgid "Header Button Settings"
+msgstr "نمایش دکمه سربرگ"
+
+#: core/options-init.php:783 core/options-init.php:1044
+#, fuzzy
+msgid "Enable Header Button"
+msgstr "فعال کردن دکمه ی جستجو"
+
+#: core/options-init.php:784
+msgid ""
+"Enable/disable the header button. The button will be displayed near the main "
+"navigation area to the right."
+msgstr ""
+
+#: core/options-init.php:790 core/options-init.php:1051
+#, fuzzy
+msgid "Button Text"
+msgstr "متن دکمه"
+
+#: core/options-init.php:791 core/options-init.php:1052
+#: core/options-init.php:1060
+#, fuzzy
+msgid "Edit header button text."
+msgstr "Define the button text here"
+
+#: core/options-init.php:797 core/options-init.php:1058
+#, fuzzy
+msgid "Button Style"
+msgstr "استایل دکمه"
+
+#: core/options-init.php:798 core/options-init.php:1059
+#, fuzzy
+msgid "Edit header button style."
+msgstr "استایل دکمه"
+
+#: core/options-init.php:809 core/options-init.php:1071
+#, fuzzy
+msgid "Button Color Scheme"
+msgstr "رنگ دکمه"
+
+#: core/options-init.php:810 core/options-init.php:1072
+msgid ""
+"Edit header button color scheme.  Primary and secondary colors can be set in "
+"Theme Options > Global Options > Color schemes."
+msgstr ""
+
+#: core/options-init.php:821 core/options-init.php:1083
+#, fuzzy
+msgid "Button Hover State"
+msgstr "دکمه شناور است"
+
+#: core/options-init.php:822 core/options-init.php:1084
+msgid "Edit header button style on mouse over."
+msgstr ""
+
+#: core/options-init.php:838 core/options-init.php:1100
+#, fuzzy
+msgid "Button Action"
+msgstr "Button"
+
+#: core/options-init.php:839
+msgid ""
+"Select button action: Open modal / Scroll to a section / Open a new page."
+msgstr ""
+
+#: core/options-init.php:856
+#, fuzzy
+msgid "Modal Box Settings"
+msgstr "تنظیمات باکس ویژگی های اپس"
+
+#: core/options-init.php:863
+#, fuzzy
+msgid "Modal Heading"
+msgstr "عنوان مودال"
+
+#: core/options-init.php:864
+#, fuzzy
+msgid "Heading text for the modal."
+msgstr "رنگ متن سربرگ صفحه"
+
+#: core/options-init.php:871
+#, fuzzy
+msgid "Modal Contents"
+msgstr "عنوان مودال"
+
+#: core/options-init.php:872
+#, fuzzy
+msgid "Content text for the modal. HTML is allowed."
+msgstr "<p> این یک زبانه محتوا است ، HTML مجاز است."
+
+#: core/options-init.php:886
+#, fuzzy
+msgid "Modal Background Image"
+msgstr "تصویر پس زمینه"
+
+#: core/options-init.php:887
+#, fuzzy
+msgid "Upload modal background image."
+msgstr "تصویر پس زمینه را برای این بخش انتخاب یا بارگذاری کنید"
+
+#: core/options-init.php:894 core/options-init.php:1146
+#, fuzzy
+msgid "Contact Links"
+msgstr "اشتراک لینک ها"
+
+#: core/options-init.php:895 core/options-init.php:1147
+msgid ""
+"Enable/Disable the phone and email links. The links can be configured in the "
+"Business Info panel."
+msgstr ""
+
+#: core/options-init.php:901 core/options-init.php:1153
+msgid "Social Icons"
+msgstr "آیکون های شبکه های اجتماعی"
+
+#: core/options-init.php:902
+msgid ""
+"Enable/Disable social icons list. The list can be configured in the Business "
+"Info panel."
+msgstr ""
+
+#: core/options-init.php:908 core/options-init.php:1160
+#: core/options-init.php:3449
+#, fuzzy
+msgid "Contact Form Plugin"
+msgstr "فقط یک افزونه ی فرم تماس دیگر T ساده اما انعطاف پذیر است."
+
+#: core/options-init.php:909
+msgid ""
+"Display a contact form inside the Modal Box. Select the contact vendor from "
+"the dropdown list."
+msgstr ""
+
+#: core/options-init.php:926 core/options-init.php:1178
+#: core/options-init.php:3466
+#, fuzzy
+msgid "Contact Form 7 Title"
+msgstr "فرم تماس 7"
+
+#: core/options-init.php:927 core/options-init.php:1179
+msgid ""
+"Select the Contact Form 7 from the dropdown. The list is automatically "
+"populated."
+msgstr ""
+
+#: core/options-init.php:935 core/options-init.php:1187
+#: core/options-init.php:3474
+#, fuzzy
+msgid "Ninja Form ID"
+msgstr "ID"
+
+#: core/options-init.php:942 core/options-init.php:1194
+#: core/options-init.php:3481
+#, fuzzy
+msgid "Gravity Form ID"
+msgstr "ID"
+
+#: core/options-init.php:949 core/options-init.php:1201
+#: core/options-init.php:3488
+#, fuzzy
+msgid "WP Form ID"
+msgstr "افزونه وردپرس میل چیمپ"
+
+#: core/options-init.php:956 core/options-init.php:1208
+#: core/options-init.php:3495
+#, fuzzy
+msgid "Form Shortcode"
+msgstr "فرم کوتاه تماس با ما"
+
+#: core/options-init.php:957 core/options-init.php:1209
+#: core/options-init.php:3496
+msgid "Insert the shortcode for a custom contact form plugin."
+msgstr ""
+
+#: core/options-init.php:964 core/options-init.php:1216
+#, fuzzy
+msgid "CSS Class"
+msgstr "Class:"
+
+#: core/options-init.php:965 core/options-init.php:1217
+msgid "Add a class to the wrapping HTML element for further CSS customization."
+msgstr ""
+
+#: core/options-init.php:977 core/options-init.php:1229
+#, fuzzy
+msgid "Scroll Section Settings"
+msgstr "بخش"
+
+#: core/options-init.php:984 core/options-init.php:1236
+#, fuzzy
+msgid "Scroll to Section ID"
+msgstr "تنظیمات بخش آی دی"
+
+#: core/options-init.php:997
+#, fuzzy
+msgid "New Page Link Settings"
+msgstr "تنظیمات صفحه"
+
+#: core/options-init.php:1004 core/options-init.php:1256
+#, fuzzy
+msgid "Button Link"
+msgstr "لینک دکمه"
+
+#: core/options-init.php:1011 core/options-init.php:1263
+msgid "Link Target"
+msgstr "Link Target"
+
+#: core/options-init.php:1031
+#, fuzzy
+msgid "Side Panel"
+msgstr "منو پنل کناری"
+
+#: core/options-init.php:1032
+msgid ""
+"Control the settings of the Side Panel used to display additional content on "
+"all pages and posts, without sacrificing space. The Side Panel can be "
+"triggered using the Header Button displayed near the Main Menu. This button "
+"can also be used to open a new page or smooth scroll to a page section ID."
+msgstr ""
+
+#: core/options-init.php:1045
+msgid ""
+"Enable/disable the side panel. The button will be displayed near the main "
+"navigation area to the right."
+msgstr ""
+
+#: core/options-init.php:1101
+msgid ""
+"Select button action: Open side panel / Scroll to a section / Open a new "
+"page."
+msgstr ""
+
+#: core/options-init.php:1118
+#, fuzzy
+msgid "Side Panel Settings"
+msgstr "منو پنل کناری"
+
+#: core/options-init.php:1125
+#, fuzzy
+msgid "Panel Heading"
+msgstr "نوشتار در صفحه بالا سمت چپ"
+
+#: core/options-init.php:1126
+#, fuzzy
+msgid "Heading text for the side panel."
+msgstr "نوشتار در صفحه بالا سمت چپ"
+
+#: core/options-init.php:1133
+#, fuzzy
+msgid "Panel Contents"
+msgstr "منو پنل کناری"
+
+#: core/options-init.php:1134
+#, fuzzy
+msgid "Content text for the side panel."
+msgstr "نوشتار در صفحه بالا سمت چپ"
+
+#: core/options-init.php:1154
+msgid ""
+"Enable/Disable the social icons list. The list can be configured in the "
+"Business Info panel."
+msgstr ""
+
+#: core/options-init.php:1161
+msgid ""
+"Display a contact form inside the Side Panel. Select the contact vendor from "
+"the dropdown list."
+msgstr ""
+
+#: core/options-init.php:1249
+#, fuzzy
+msgid "New Page Settings"
+msgstr "تنظیمات صفحه"
+
+#: core/options-init.php:1283
+msgid "Layout"
+msgstr "Layout"
+
+#: core/options-init.php:1284
+msgid "General layout settings that are applied site-wide."
+msgstr ""
+
+#: core/options-init.php:1289
+msgid "Layout Style"
+msgstr "استایل لایه ها"
+
+#: core/options-init.php:1290
+msgid "Select the general width for the entire site."
+msgstr ""
+
+#: core/options-init.php:1300
+#, fuzzy
+msgid "Content Width"
+msgstr "در صورت پنهان بودن نوار کناری ، عرض محتوا را گسترش دهید"
+
+#: core/options-init.php:1301
+msgid "Control the width of the boxed content area."
+msgstr ""
+
+#: core/options-init.php:1311
+#, fuzzy
+msgid "Body Background Settings"
+msgstr "تصویر بک گراند بدنه"
+
+#: core/options-init.php:1312
+msgid ""
+"Option available only if the layout style Boxed is selected. Configure the "
+"body background settings."
+msgstr ""
+
+#: core/options-init.php:1320
+#, fuzzy
+msgid "Content Background Color"
+msgstr "بک گراند محتوا صفحه"
+
+#: core/options-init.php:1321
+#, fuzzy
+msgid "Select the content background color."
+msgstr "بک گراند را برای محتوای صفحه انتخاب کنید"
+
+#: core/options-init.php:1330
+msgid "Footer"
+msgstr "پاورقی"
+
+#: core/options-init.php:1335
+msgid "Footer Settings"
+msgstr "تنظیمات پاورقی"
+
+#: core/options-init.php:1336
+#, fuzzy
+msgid "Footer global options."
+msgstr "تنظیمات عمومی"
+
+#: core/options-init.php:1342
+#, fuzzy
+msgid "Footer Global Options"
+msgstr "تنظیمات عمومی"
+
+#: core/options-init.php:1348
+#, fuzzy
+msgid "Footer Width"
+msgstr "عرض"
+
+#: core/options-init.php:1349
+#, fuzzy
+msgid "Control the width of the footer area."
+msgstr "اطلاعات تماس در ناحیه پاورقی"
+
+#: core/options-init.php:1359
+#, fuzzy
+msgid "Fixed Footer"
+msgstr "فیکس"
+
+#: core/options-init.php:1360
+msgid "Enable/disable the footer fixed scroll effect."
+msgstr ""
+
+#: core/options-init.php:1366
+#, fuzzy
+msgid "Footer Bar"
+msgstr ""
+"مطمئن شوید که بلوک کپی رایت را در این قسمت فعال کرده اید: <br /> <strong> "
+"Kroth> گزینه های تم> پاورقی> نوار حق چاپ: فعال کردن مسدود کردن حق چاپ </ "
+"strong>"
+
+#: core/options-init.php:1367
+msgid "Enable/Disable the footer bar. Contains footer menu and social icons."
+msgstr ""
+
+#: core/options-init.php:1374
+#, fuzzy
+msgid "Upper Footer Background Color"
+msgstr "رنگ پس زمینه پاورقیرنگ پس زمینه پاورقی"
+
+#: core/options-init.php:1375
+#, fuzzy
+msgid "Select the upper footer background color."
+msgstr "پاورقی پایین صفحه پس زمینه رنگ"
+
+#: core/options-init.php:1383
+#, fuzzy
+msgid "Lower Footer Background Color"
+msgstr "رنگ پس زمینه پاورقیرنگ پس زمینه پاورقی"
+
+#: core/options-init.php:1384
+#, fuzzy
+msgid "Select the lower footer background color."
+msgstr "رنگ بک گراند را برای قمت کپی راین پاورقی انتخاب کنید "
+
+#: core/options-init.php:1396
+msgid "Footer Background Image"
+msgstr "تصویر  پس زمینه پاورقی"
+
+#: core/options-init.php:1404
+msgid "Background Image"
+msgstr "عکس پس زمینه"
+
+#: core/options-init.php:1405
+msgid ""
+"Select an image for the footer area. If left empty, the footer background "
+"color will be used."
+msgstr ""
+
+#: core/options-init.php:1410
+msgid "Background Style"
+msgstr ""
+
+#: core/options-init.php:1411
+#, fuzzy
+msgid "Select how the background image repeats."
+msgstr "تصویر پس زمینه را برای این بخش انتخاب یا بارگذاری کنید"
+
+#: core/options-init.php:1424
+#, fuzzy
+msgid "Background Position"
+msgstr "موقعیت پس زمینه"
+
+#: core/options-init.php:1425
+#, fuzzy
+msgid "Select how the background image is positioned."
+msgstr "تصویر پس زمینه را برای این بخش انتخاب یا بارگذاری کنید"
+
+#: core/options-init.php:1451 core/options-init.php:1459
+#, fuzzy
+msgid "Footer Typography"
+msgstr "تایپوگرافی"
+
+#: core/options-init.php:1452
+#, fuzzy
+msgid "Footer typography settings."
+msgstr "تنظیمات پاورقی سفارشی"
+
+#: core/options-init.php:1460
+#, fuzzy
+msgid "Edit the typography settings of the footer."
+msgstr "ویرایش تنظیمات رویداد"
+
+#: core/options-init.php:1482
+#, fuzzy
+msgid "Footer Heading Color"
+msgstr "رنگ سربرگ"
+
+#: core/options-init.php:1483
+msgid "Select the text color used for the footer widget titles."
+msgstr ""
+
+#: core/options-init.php:1491
+#, fuzzy
+msgid "Footer Text Color"
+msgstr "رنگ متن پاورقی"
+
+#: core/options-init.php:1492
+msgid "Select the text color used for the footer widget paragraphs."
+msgstr ""
+
+#: core/options-init.php:1499
+#, fuzzy
+msgid "Footer Link Color"
+msgstr "رنگ لینک پاورقی"
+
+#: core/options-init.php:1500
+msgid "Select the text color used for the footer links."
+msgstr ""
+
+#: core/options-init.php:1507
+#, fuzzy
+msgid "Footer Link Hover Effect"
+msgstr "رنگ لینک شناور (هاور)"
+
+#: core/options-init.php:1508
+#, fuzzy
+msgid "Select the hover effect on footer links."
+msgstr "جلوه شناور (هاور) را برای تصویر برجسته انتخاب کنید"
+
+#: core/options-init.php:1521
+msgid "Footer Widgets"
+msgstr "ابزارک های پاورقی"
+
+#: core/options-init.php:1522
+#, fuzzy
+msgid "Footer widgets settings."
+msgstr "تنظیمات پاورقی"
+
+#: core/options-init.php:1528
+#, fuzzy
+msgid "Footer Widgets Section"
+msgstr "ابزارک های پاورقی"
+
+#: core/options-init.php:1529
+msgid "Enable/Disable the footer widget section. Contains footer widget areas."
+msgstr ""
+
+#: core/options-init.php:1535 core/options-init.php:1542
+#, fuzzy
+msgid "First Widget Area"
+msgstr "منطقه ابزارک"
+
+#: core/options-init.php:1543
+msgid "Enable/Disable the footer first widget area."
+msgstr ""
+
+#: core/options-init.php:1549
+#, fuzzy
+msgid "First Widget Width"
+msgstr "ابزارک"
+
+#: core/options-init.php:1550
+msgid "Control the width of the first footer widget area."
+msgstr ""
+
+#: core/options-init.php:1564
+#, fuzzy
+msgid "First Widget Text Align"
+msgstr "تراز متن سربرگ"
+
+#: core/options-init.php:1565
+msgid "Select content text alignment for the first footer widget area."
+msgstr ""
+
+#: core/options-init.php:1582 core/options-init.php:1589
+#, fuzzy
+msgid "Second Widget Area"
+msgstr "Widget Area successfully created!"
+
+#: core/options-init.php:1590
+msgid "Enable/Disable the footer second widget area."
+msgstr ""
+
+#: core/options-init.php:1596
+#, fuzzy
+msgid "Second Widget Width"
+msgstr "ابزارک"
+
+#: core/options-init.php:1597
+msgid "Control the width of the second footer widget area."
+msgstr ""
+
+#: core/options-init.php:1611
+#, fuzzy
+msgid "Second Widget Text Align"
+msgstr "تراز متن سربرگ"
+
+#: core/options-init.php:1612
+msgid "Select content text alignment for the second footer widget area."
+msgstr ""
+
+#: core/options-init.php:1629 core/options-init.php:1636
+#, fuzzy
+msgid "Third Widget Area"
+msgstr "منطقه ابزارک"
+
+#: core/options-init.php:1637
+msgid "Enable/Disable the footer third widget area."
+msgstr ""
+
+#: core/options-init.php:1643
+#, fuzzy
+msgid "Third Widget Width"
+msgstr "پاورقی سوم"
+
+#: core/options-init.php:1644
+msgid "Control the width of the third footer widget area."
+msgstr ""
+
+#: core/options-init.php:1658
+#, fuzzy
+msgid "Third Widget Text Align"
+msgstr "تراز متن سربرگ"
+
+#: core/options-init.php:1659
+msgid "Select content text alignment for the third footer widget area."
+msgstr ""
+
+#: core/options-init.php:1676 core/options-init.php:1683
+#, fuzzy
+msgid "Fourth Widget Area"
+msgstr "Widget Area successfully created!"
+
+#: core/options-init.php:1684
+msgid "Enable/Disable the footer fourth widget area."
+msgstr ""
+
+#: core/options-init.php:1690
+#, fuzzy
+msgid "Fourth Widget Width"
+msgstr "عرض"
+
+#: core/options-init.php:1691
+msgid "Control the width of the fourth footer widget area."
+msgstr ""
+
+#: core/options-init.php:1705
+#, fuzzy
+msgid "Fourth Widget Text Align"
+msgstr "تراز متن سربرگ"
+
+#: core/options-init.php:1706
+msgid "Select content text alignment for the fourth footer widget area."
+msgstr ""
+
+#: core/options-init.php:1723 core/options-init.php:1730
+#, fuzzy
+msgid "Fifth Widget Area"
+msgstr "منطقه ابزارک"
+
+#: core/options-init.php:1731
+msgid "Enable/Disable the footer fifth widget area."
+msgstr ""
+
+#: core/options-init.php:1737
+#, fuzzy
+msgid "Fifth Widget Width"
+msgstr "عرض"
+
+#: core/options-init.php:1738
+msgid "Control the width of the fifth footer widget area."
+msgstr ""
+
+#: core/options-init.php:1752
+#, fuzzy
+msgid "Fifth Widget Text Align"
+msgstr "تراز متن سربرگ"
+
+#: core/options-init.php:1753
+msgid "Select content text alignment for the fifth footer widget area."
+msgstr ""
+
+#: core/options-init.php:1770 core/options-init.php:1777
+#, fuzzy
+msgid "Sixth Widget Area"
+msgstr "منطقه ابزارک"
+
+#: core/options-init.php:1778
+msgid "Enable/Disable the footer sixth widget area."
+msgstr ""
+
+#: core/options-init.php:1784
+#, fuzzy
+msgid "Sixth Widget Width"
+msgstr "عرض"
+
+#: core/options-init.php:1785
+msgid "Control the width of the sixth footer widget area."
+msgstr ""
+
+#: core/options-init.php:1799
+#, fuzzy
+msgid "Sixth Widget Text Align"
+msgstr "تراز متن سربرگ"
+
+#: core/options-init.php:1800
+msgid "Select content text alignment for the sixth footer widget area."
+msgstr ""
+
+#: core/options-init.php:1819
+#, fuzzy
+msgid "Footer Copyright"
+msgstr "کپی رایت پاورقی"
+
+#: core/options-init.php:1820
+#, fuzzy
+msgid "Footer copyright settings."
+msgstr "متن کپی رایت پاورقی"
+
+#: core/options-init.php:1826
+#, fuzzy
+msgid "Footer Copyright Section"
+msgstr "فعال کردن بخش کپی رایت "
+
+#: core/options-init.php:1827
+msgid ""
+"Enable/Disable the footer copyright section. Contains the copyright text."
+msgstr ""
+
+#: core/options-init.php:1833
+#, fuzzy
+msgid "Copyright Text"
+msgstr "متن کپی رایت"
+
+#: core/options-init.php:1834
+#, fuzzy
+msgid "Enter footer bottom copyright text"
+msgstr "متن کپی رایت پاورقی"
+
+#: core/options-init.php:1846
+#, fuzzy
+msgid "Copyright Text Alignment"
+msgstr "متن کپی رایت پاورقی"
+
+#: core/options-init.php:1847
+msgid "Select the text alignment with footer copyright area."
+msgstr ""
+
+#: core/options-init.php:1864
+#, fuzzy
+msgid "Typography"
+msgstr "تایپوگرافی"
+
+#: core/options-init.php:1869
+msgid "General Fonts"
+msgstr "فونت های عمومی"
+
+#: core/options-init.php:1870
+msgid ""
+"Customize the font properties across the entire website. Choose from over "
+"800 open-source Google fonts, free for commercial use."
+msgstr ""
+
+#: core/options-init.php:1876
+msgid ""
+"Important! Resetting this section will result in losing the demo imported "
+"settings and default to the theme original settings."
+msgstr ""
+
+#: core/options-init.php:1881 core/options-init.php:1983
+#: core/options-init.php:2095 core/options-init.php:2134
+msgid "Body Typography"
+msgstr "تایپوگرافی بدنه"
+
+#: core/options-init.php:1882
+msgid "Configure the global body font typography."
+msgstr ""
+
+#: core/options-init.php:1891 core/options-init.php:2150
+#, fuzzy
+msgid "H1 Heading"
+msgstr "سربرگ"
+
+#: core/options-init.php:1892
+#, fuzzy
+msgid "Configure H1 heading typography."
+msgstr "تایپوگرافی h1"
+
+#: core/options-init.php:1902 core/options-init.php:2166
+#, fuzzy
+msgid "H2 Heading"
+msgstr "سربرگ"
+
+#: core/options-init.php:1903
+#, fuzzy
+msgid "Configure H2 heading typography."
+msgstr "تایپوگرافی h2"
+
+#: core/options-init.php:1913 core/options-init.php:2182
+#, fuzzy
+msgid "H3 Heading"
+msgstr "سربرگ"
+
+#: core/options-init.php:1914
+#, fuzzy
+msgid "Configure H3 heading typography."
+msgstr "تایپوگرافی h3"
+
+#: core/options-init.php:1924 core/options-init.php:2198
+#, fuzzy
+msgid "H4 Heading"
+msgstr "سربرگ"
+
+#: core/options-init.php:1925
+#, fuzzy
+msgid "Configure H4 heading typography."
+msgstr "تایپوگرافی h4"
+
+#: core/options-init.php:1935 core/options-init.php:2214
+#, fuzzy
+msgid "H5 Heading"
+msgstr "سربرگ"
+
+#: core/options-init.php:1936
+#, fuzzy
+msgid "Configure H5 heading typography."
+msgstr "تایپوگرافی h5"
+
+#: core/options-init.php:1946 core/options-init.php:2230
+#, fuzzy
+msgid "H6 Heading"
+msgstr "سربرگ"
+
+#: core/options-init.php:1947
+#, fuzzy
+msgid "Configure H6 heading typography."
+msgstr "تایپوگرافی h6"
+
+#: core/options-init.php:1959
+#, fuzzy
+msgid "Typekit Fonts"
+msgstr "فونت ها"
+
+#: core/options-init.php:1960
+msgid ""
+"Typekit fonts are premium fonts that can be used only with an active monthly "
+"subscription to Adobe CC."
+msgstr ""
+
+#: core/options-init.php:1966
+#, fuzzy
+msgid "Enable Typekit"
+msgstr "فعال"
+
+#: core/options-init.php:1967
+#, fuzzy
+msgid "Enable/Disable Typekit fonts."
+msgstr "فعال کردن / غیر فعال کردن متن کپی رایت"
+
+#: core/options-init.php:1973
+#, fuzzy
+msgid "Typekit ID"
+msgstr "لیست شناسه"
+
+#: core/options-init.php:1974
+msgid ""
+"Add Typekit ID. Only published data is accessible. Please make sure that any "
+"changes of a kit are updated."
+msgstr ""
+
+#: core/options-init.php:1984
+msgid "Add the font family name used for the main body typography."
+msgstr ""
+
+#: core/options-init.php:1991 core/options-init.php:2107
+msgid "Headings Typography"
+msgstr "تایپوگرافی سربرگها"
+
+#: core/options-init.php:1992
+msgid ""
+"Add the font family name used for the main headings (H1 to H6) typography."
+msgstr ""
+
+#: core/options-init.php:2001
+#, fuzzy
+msgid "Custom Fonts"
+msgstr "فونت ها"
+
+#: core/options-init.php:2002
+msgid "Upload your own custom fonts. Only .ttf and .woff files are required."
+msgstr ""
+
+#: core/options-init.php:2008
+#, fuzzy
+msgid "Enable Custom Fonts"
+msgstr "فعال کردن رنگ سفارشی"
+
+#: core/options-init.php:2014
+#, fuzzy
+msgid "Primary Custom Font"
+msgstr "فونت اصلی"
+
+#: core/options-init.php:2021
+#, fuzzy
+msgid "Primary .ttf File"
+msgstr "اصلی"
+
+#: core/options-init.php:2022
+msgid "Upload primary font .ttf file."
+msgstr ""
+
+#: core/options-init.php:2033
+#, fuzzy
+msgid "Primary .woff File"
+msgstr "اصلی"
+
+#: core/options-init.php:2034
+msgid "Upload primary font .woff file."
+msgstr ""
+
+#: core/options-init.php:2051
+#, fuzzy
+msgid "Secondary Custom Font"
+msgstr "فونت دوم"
+
+#: core/options-init.php:2058
+#, fuzzy
+msgid "Secondary .ttf File"
+msgstr "ثانوی"
+
+#: core/options-init.php:2059
+msgid "Upload secondary font .ttf file."
+msgstr ""
+
+#: core/options-init.php:2070
+#, fuzzy
+msgid "Secondary .woff File"
+msgstr "ثانوی"
+
+#: core/options-init.php:2071
+msgid "Upload secondary font .woff file."
+msgstr ""
+
+#: core/options-init.php:2088
+#, fuzzy
+msgid "Custom Font Selector"
+msgstr "انتخابگر اندازه فونت"
+
+#: core/options-init.php:2096
+msgid "Select custom font to be used for the body text."
+msgstr ""
+
+#: core/options-init.php:2108
+msgid "Select custom font to be used for the headings text."
+msgstr ""
+
+#: core/options-init.php:2127
+#, fuzzy
+msgid "Responsive Fonts"
+msgstr "واکنشگرا"
+
+#: core/options-init.php:2128
+msgid ""
+"Overwrite the default typography ( font sizes and line heights ) on mobile & "
+"tablet"
+msgstr ""
+
+#: core/options-init.php:2135
+msgid "Overwrite body typography on mobile & tablet "
+msgstr ""
+
+#: core/options-init.php:2151
+msgid "Overwrite H1 typography on mobile & tablet "
+msgstr ""
+
+#: core/options-init.php:2167
+msgid "Overwrite H2 typography on mobile & tablet "
+msgstr ""
+
+#: core/options-init.php:2183
+msgid "Overwrite H3 typography on mobile & tablet "
+msgstr ""
+
+#: core/options-init.php:2199
+msgid "Overwrite H4 typography on mobile & tablet "
+msgstr ""
+
+#: core/options-init.php:2215
+msgid "Overwrite H5 typography on mobile & tablet "
+msgstr ""
+
+#: core/options-init.php:2231
+msgid "Overwrite H6 typography on mobile & tablet "
+msgstr ""
+
+#: core/options-init.php:2251 core/theme-activation.php:52
+msgid "WooCommerce"
+msgstr "ووکامرس"
+
+#: core/options-init.php:2256
+#, fuzzy
+msgid "Shop Page"
+msgstr "نوارکناری در صفحه فروشگاه (تنهادر لایه ی نوارکناری فروشگاه)"
+
+#: core/options-init.php:2257
+msgid ""
+"Edit general setting for the main shop page. Select the product catalog "
+"style, products to show per page and number of product columns."
+msgstr ""
+
+#: core/options-init.php:2263
+#, fuzzy
+msgid "Catalog Style"
+msgstr "حالت کاتالوگ"
+
+#: core/options-init.php:2264
+#, fuzzy
+msgid "Select the product box template style"
+msgstr "انتخای استایل برای باکس فروشگاه"
+
+#: core/options-init.php:2275
+#, fuzzy
+msgid "Products per Page"
+msgstr "محصولات در هر صفحه"
+
+#: core/options-init.php:2276
+#, fuzzy
+msgid "Change the products number listed per page."
+msgstr "شماره برای محصولات هر فحه"
+
+#: core/options-init.php:2282
+msgid "Shop Layout"
+msgstr "لایه ی فروشگاه"
+
+#: core/options-init.php:2283
+#, fuzzy
+msgid "Select the number of product columns"
+msgstr "انتخاب ستون محصول"
+
+#: core/options-init.php:2296 core/options-init.php:2377
+msgid "Sidebar Position"
+msgstr "موقعیت نوار کناری"
+
+#: core/options-init.php:2297 core/options-init.php:2378
+msgid "Select sidebar position"
+msgstr "انتخاب موقعیت نوار کناری"
+
+#: core/options-init.php:2308
+#, fuzzy
+msgid "View cart text"
+msgstr "سبد خرید"
+
+#: core/options-init.php:2309
+msgid "Overwrite the \"View cart\" button text on mini cart widget."
+msgstr ""
+
+#: core/options-init.php:2315
+#, fuzzy
+msgid "Checkout text"
+msgstr "پرداخت"
+
+#: core/options-init.php:2316
+msgid "Overwrite the \"Checkout\" button text on mini cart widget."
+msgstr ""
+
+#: core/options-init.php:2322
+#, fuzzy
+msgid "Empty cart text"
+msgstr "متن پیام نمی تواند خالی باشد"
+
+#: core/options-init.php:2323
+msgid ""
+"Overwrite the \"Your cart is currently empty.\" text on mini cart widget."
+msgstr ""
+
+#: core/options-init.php:2332
+msgid "Product Page"
+msgstr "صفحه محصولات"
+
+#: core/options-init.php:2333
+msgid "Edit general settings for the single product page."
+msgstr ""
+
+#: core/options-init.php:2339 core/options-init.php:2575
+#: core/options-init.php:3246
+#, fuzzy
+msgid "Transparent Navbar"
+msgstr "شفاف"
+
+#: core/options-init.php:2340
+msgid "Enable/Disable transparent navigation on single product pages."
+msgstr ""
+
+#: core/options-init.php:2346
+#, fuzzy
+msgid "Product Title Bar"
+msgstr "03 . رنگ عنوان نوار"
+
+#: core/options-init.php:2347
+msgid "Enable/Disable title bar on single product pages."
+msgstr ""
+
+#: core/options-init.php:2355 core/options-init.php:2669
+#, fuzzy
+msgid "Title Bar Text Alignment"
+msgstr "03 . رنگ عنوان نوار"
+
+#: core/options-init.php:2362 core/options-init.php:2676
+msgid "Select text alignment in the title bar area."
+msgstr ""
+
+#: core/options-init.php:2368
+#, fuzzy
+msgid "Product Sidebar"
+msgstr "نوار کناری | محصول"
+
+#: core/options-init.php:2369
+msgid "Enable/Disable sidebar on single product pages."
+msgstr ""
+
+#: core/options-init.php:2390
+#, fuzzy
+msgid "Featured Image Position"
+msgstr "موقعیت تصویر"
+
+#: core/options-init.php:2391
+#, fuzzy
+msgid "Control the product image position."
+msgstr "موقعیت نوار کناری صفحه جزئیات محصول"
+
+#: core/options-init.php:2402
+#, fuzzy
+msgid "Gallery Template"
+msgstr "گالری"
+
+#: core/options-init.php:2403
+msgid "Control the product image gallery layout."
+msgstr ""
+
+#: core/options-init.php:2414 core/options-init.php:2867
+#, fuzzy
+msgid "Social Sharing Buttons"
+msgstr "باکس اشتراک شبکه های اجتماعی"
+
+#: core/options-init.php:2415
+msgid "Enable/Disable the social sharing buttons on single product pages."
+msgstr ""
+
+#: core/options-init.php:2424 core/templates/post/content-search.php:49
+msgid "Portfolio"
+msgstr "نمونه کارها"
+
+#: core/options-init.php:2425
+msgid "Edit the single portfolio page settings"
+msgstr ""
+
+#: core/options-init.php:2430 core/options-init.php:2569
+#, fuzzy
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+#: core/options-init.php:2436
+#, fuzzy
+msgid "Enable Portfolio"
+msgstr "طرح سفارشی نمونه کارها را فعال کنید"
+
+#: core/options-init.php:2437
+msgid ""
+"Enable/Disable the portfolio custom post type. Refresh the page for changes "
+"to take effect."
+msgstr ""
+
+#: core/options-init.php:2443
+msgid "Portfolio Slug"
+msgstr "اسلاگ نمونه کار"
+
+#: core/options-init.php:2444
+msgid ""
+"Overwrite the portfolio base slug: domain.com/<strong>portfolio</strong>/"
+"portfolio-item-slug"
+msgstr ""
+
+#: core/options-init.php:2445
+msgid ""
+"<strong>Note:</strong> When you change this setting you need to <a href="
+"\"https://www.swaytheme.com/documentation/knowledge-base/flush-rewrite-rules/"
+"\" target=\"_blank\">flush rewrite rules</a>."
+msgstr ""
+
+#: core/options-init.php:2457
+#, fuzzy
+msgid "Portfolio Single Page Settings"
+msgstr "تنظیمات نمونه کار"
+
+#: core/options-init.php:2464 core/options-init.php:2892
+#, fuzzy
+msgid "Previous/Next Pagination"
+msgstr "شماره صفحه"
+
+#: core/options-init.php:2465
+msgid ""
+"Enable/Disable the previous/next portfolio pagination. Pagination section "
+"will be displayed below the content."
+msgstr ""
+
+#: core/options-init.php:2472
+#, fuzzy
+msgid "Navigation \"Previous\" Link Text"
+msgstr "متن با لینک سیاست حفظ حریم خصوصی"
+
+#: core/options-init.php:2473
+msgid "Overwrite the \"Previous\" text on portfolio single page navigation."
+msgstr ""
+
+#: core/options-init.php:2484
+#, fuzzy
+msgid "Navigation \"Next\" Link Text"
+msgstr "متن پروژه بعدی"
+
+#: core/options-init.php:2485
+msgid "Overwrite the \"Next\" text on portfolio single page navigation."
+msgstr ""
+
+#: core/options-init.php:2496
+#, fuzzy
+msgid "Related Portfolio Items"
+msgstr "نمونه کارهای اخیر"
+
+#: core/options-init.php:2497
+msgid "Enable/Disable related portfolio items on single portfolio pages."
+msgstr ""
+
+#: core/options-init.php:2504
+#, fuzzy
+msgid "Related Portfolio Section Title"
+msgstr "عنوان موارد اخیر"
+
+#: core/options-init.php:2505
+msgid "Edit the related portfolios section title."
+msgstr ""
+
+#: core/options-init.php:2516
+#, fuzzy
+msgid "Number of Related Portfolio Items"
+msgstr "شماره از مورد"
+
+#: core/options-init.php:2517
+msgid "Select the number of related portfolio items."
+msgstr ""
+
+#: core/options-init.php:2529
+#, fuzzy
+msgid "Related Portfolio Link Text"
+msgstr "نمونه کارهای اخیر"
+
+#: core/options-init.php:2530
+msgid ""
+"Edit the related portfolio items button text. Default is set to \"View "
+"project\"."
+msgstr ""
+
+#: core/options-init.php:2541
+#, fuzzy
+msgid "Comments Section"
+msgstr "% نظر"
+
+#: core/options-init.php:2542
+msgid "Enable/Disable the comments section below the content."
+msgstr ""
+
+#: core/options-init.php:2557
+#, fuzzy
+msgid "Blog"
+msgstr "وبلاگ"
+
+#: core/options-init.php:2562
+#, fuzzy
+msgid "Blog Settings"
+msgstr "تنظیمات وبلاگ"
+
+#: core/options-init.php:2563
+msgid "Edit blog posts page & archive general settings"
+msgstr ""
+
+#: core/options-init.php:2576
+msgid "Enable/Disable transparent navigation on blog posts page."
+msgstr ""
+
+#: core/options-init.php:2582
+#, fuzzy
+msgid "Blog Header Template"
+msgstr "قالب سربرگ"
+
+#: core/options-init.php:2583
+#, fuzzy
+msgid "Select the blog header template style."
+msgstr "برای نمایش هدر سایت در بایگانی وبلاگ ، سبک را انتخاب کنید"
+
+#: core/options-init.php:2594
+#, fuzzy
+msgid "Blog Articles Template"
+msgstr "قالب"
+
+#: core/options-init.php:2595
+#, fuzzy
+msgid "Select the blog articles template style."
+msgstr "سبک پست ها را برای بایگانی وبلاگ انتخاب کنید"
+
+#: core/options-init.php:2609 core/options-init.php:2848
+#: core/options-init.php:3253
+#, fuzzy
+msgid "Display Sidebar"
+msgstr "انتخاب نمایش نوار کناری در وبلاگ"
+
+#: core/options-init.php:2610
+#, fuzzy
+msgid "Enable disable blog sidebar."
+msgstr "فعال کردن / غیر فعال کردن متن کپی رایت"
+
+#: core/options-init.php:2616 core/options-init.php:2855
+#: core/options-init.php:3260
+#, fuzzy
+msgid "Sticky Sidebar"
+msgstr "چسبنده"
+
+#: core/options-init.php:2617
+msgid "Enable sticky sidebar for blog posts page."
+msgstr ""
+
+#: core/options-init.php:2628
+msgid "Blog Post Excerpt"
+msgstr ""
+
+#: core/options-init.php:2629
+msgid "Edit articles excerpt length on blog page."
+msgstr ""
+
+#: core/options-init.php:2635
+msgid "Read more text"
+msgstr "متن ادامه مطلب"
+
+#: core/options-init.php:2636
+msgid "Overwrite \"Read more\" text on blog articles."
+msgstr ""
+
+#: core/options-init.php:2637
+msgid ""
+"This option overwrites the Read More text with the assigned blog page in "
+"\"Settings > Reading\" and blog archives, not the blog element."
+msgstr ""
+
+#: core/options-init.php:2648
+#, fuzzy
+msgid "Blog Header Title Bar"
+msgstr "03 . رنگ عنوان نوار"
+
+#: core/options-init.php:2655
+#, fuzzy
+msgid "Blog Page Title"
+msgstr "عنوان وبلاگ"
+
+#: core/options-init.php:2656
+msgid "Enable/Disable the page title of the assigned blog page."
+msgstr ""
+
+#: core/options-init.php:2662
+#, fuzzy
+msgid "Blog Page Subtitle"
+msgstr "زیر نویس صفحه جستجو"
+
+#: core/options-init.php:2663
+msgid ""
+"Add the subtitle text that displays in the page title bar of the assigned "
+"blog page."
+msgstr ""
+
+#: core/options-init.php:2685
+msgid ""
+"Use this colorpicker to override the title bar default background color."
+msgstr ""
+
+#: core/options-init.php:2694
+msgid "Use this colorpicker to override the title bar default text color."
+msgstr ""
+
+#: core/options-init.php:2700
+#, fuzzy
+msgid "Blog Header Background Image Size"
+msgstr "عکس پس زمینه برای سربرگ"
+
+#: core/options-init.php:2701
+msgid ""
+"Controls the Blog Header image size. This option is used with the Blog "
+"Featured Image."
+msgstr ""
+
+#: core/options-init.php:2713
+#, fuzzy
+msgid "Blog Header Background Image Position"
+msgstr "موقعیتی را برای نمایش هدر سایت در بایگانی وبلاگ انتخاب کنید"
+
+#: core/options-init.php:2714
+msgid ""
+"Controls the Blog Header image position. This option is used with the Blog "
+"Featured Image."
+msgstr ""
+
+#: core/options-init.php:2734
+#, fuzzy
+msgid "Blog Header Revolution Slider"
+msgstr "روولوشن اسلایدر یا هر کد کوتاه دیگری"
+
+#: core/options-init.php:2741
+#, fuzzy
+msgid "Revolution Slider Alias Name"
+msgstr "روولوشن اسلایدر یا هر کد کوتاه دیگری"
+
+#: core/options-init.php:2754
+#, fuzzy
+msgid "Blog Subscribe Form"
+msgstr "متن متن نگه دارنده مکان را فرم دهید"
+
+#: core/options-init.php:2760
+#, fuzzy
+msgid "Subscribe Section"
+msgstr "عضویت"
+
+#: core/options-init.php:2761
+msgid ""
+"Enable/Disable the subscribe form section. This form is displayed on blog "
+"listing and single blog posts in the footer area."
+msgstr ""
+
+#: core/options-init.php:2767
+#, fuzzy
+msgid "Subscribe Section Visibility"
+msgstr "عضویت"
+
+#: core/options-init.php:2768
+msgid "Select on which pages to show the subscribe form."
+msgstr ""
+
+#: core/options-init.php:2781
+#, fuzzy
+msgid "Subscribe Section Title"
+msgstr "عضویت"
+
+#: core/options-init.php:2782
+#, fuzzy
+msgid "Add the title for the subscribe section."
+msgstr "عنوان صفحه بخش حراج"
+
+#: core/options-init.php:2789
+#, fuzzy
+msgid "Subscribe Section Subtitle"
+msgstr "زیرنویس"
+
+#: core/options-init.php:2790
+msgid "Add the subtitle for the subscribe section."
+msgstr ""
+
+#: core/options-init.php:2804
+#, fuzzy
+msgid "Subscribe Section Form Title"
+msgstr "متن متن نگه دارنده مکان را فرم دهید"
+
+#: core/options-init.php:2805
+msgid "Select the Contact Form 7 to be used as a newsletter form."
+msgstr ""
+
+#: core/options-init.php:2814
+#, fuzzy
+msgid "Subscribe Section Background Image"
+msgstr "تصویر پس زمینه را برای این بخش انتخاب یا بارگذاری کنید"
+
+#: core/options-init.php:2815
+#, fuzzy
+msgid "Upload background image."
+msgstr "تصویر پس زمینه را برای این بخش انتخاب یا بارگذاری کنید"
+
+#: core/options-init.php:2829
+msgid "Single Post"
+msgstr "پست تکی"
+
+#: core/options-init.php:2830
+msgid "Edit single blog posts general settings"
+msgstr ""
+
+#: core/options-init.php:2836
+#, fuzzy
+msgid "Single Post Template"
+msgstr "تنظیمات پست های تکی"
+
+#: core/options-init.php:2837
+#, fuzzy
+msgid "Select the single post template style."
+msgstr "انتخاب نوار کناری برای نمایش در پست تکی"
+
+#: core/options-init.php:2849
+#, fuzzy
+msgid "Enable/Disable the single post sidebar."
+msgstr "موقعیت را برای نمایش نوار کناری انتخاب کنید"
+
+#: core/options-init.php:2856
+msgid "Enable sticky sidebar for single blog posts."
+msgstr ""
+
+#: core/options-init.php:2868
+msgid "Select social sharing buttons visible on single post"
+msgstr ""
+
+#: core/options-init.php:2885
+#, fuzzy
+msgid "Author Box"
+msgstr "باکس اطلاعات نویسنده"
+
+#: core/options-init.php:2886
+msgid "Enable/Disable author box below post content."
+msgstr ""
+
+#: core/options-init.php:2893
+msgid "Enable/Disable the previous/next post pagination for single posts."
+msgstr ""
+
+#: core/options-init.php:2899
+#, fuzzy
+msgid "Navigation \"Previous\" Text"
+msgstr "قبل"
+
+#: core/options-init.php:2900
+msgid "Overwrite the \"Previous\" text on single blog post navigation."
+msgstr ""
+
+#: core/options-init.php:2911
+#, fuzzy
+msgid "Navigation \"Next\" Text"
+msgstr "ناوبری قبل و بعد"
+
+#: core/options-init.php:2912
+msgid "Overwrite the \"Next\" text on single blog post navigation."
+msgstr ""
+
+#: core/options-init.php:2923
+#, fuzzy
+msgid "Related Posts"
+msgstr "پست ها اخیر"
+
+#: core/options-init.php:2924
+#, fuzzy
+msgid "Enable/Disable related posts on single post pages."
+msgstr "نمایش بخش \"پست های مرتبط\" در صفحات پست تنها"
+
+#: core/options-init.php:2930
+#, fuzzy
+msgid "Related Posts Title"
+msgstr "پست ها اخیر"
+
+#: core/options-init.php:2941
+#, fuzzy
+msgid "Number of Related Posts"
+msgstr "تعدا نمایش پست های اخیر"
+
+#: core/options-init.php:2942
+msgid "Controls the number of posts that display under related posts section."
+msgstr ""
+
+#: core/options-init.php:2954 core/options-init.php:2960
+#, fuzzy
+msgid "Reading Bar"
+msgstr "ادامه ی خواندن"
+
+#: core/options-init.php:2961
+msgid ""
+"Enable/Disable the reading progress bar. As you read the post or scroll the "
+"page, the progress bar is filled with color."
+msgstr ""
+
+#: core/options-init.php:2967
+#, fuzzy
+msgid "Reading Bar Position"
+msgstr "ادامه ی خواندن"
+
+#: core/options-init.php:2968
+#, fuzzy
+msgid "Select the reading bar position."
+msgstr "موقعیت منوی اصلی را انتخاب کنید"
+
+#: core/options-init.php:2985
+#, fuzzy
+msgid "Reading Bar Color"
+msgstr "رنگ نوار اسکرول"
+
+#: core/options-init.php:2987
+msgid "Select the background color to fill the progress bar."
+msgstr ""
+
+#: core/options-init.php:2998
+#, fuzzy
+msgid "Reading Bar Height"
+msgstr "ادامه ی خواندن"
+
+#: core/options-init.php:2999
+msgid "Select the height of the progress reading bar."
+msgstr ""
+
+#: core/options-init.php:3018
+#, fuzzy
+msgid "Blog Meta"
+msgstr "مواردی را که می خواهید از قسمت متا وبلاگ / پست پنهان کنید بررسی کنید."
+
+#: core/options-init.php:3019
+msgid ""
+"The settings available with this page control the main blog page, single "
+"blog post page and blog archive pages. These settings do not overwrite the "
+"Post Grid or the Masonry Grid element settings."
+msgstr ""
+
+#: core/options-init.php:3025
+#, fuzzy
+msgid "Post Meta"
+msgstr "متا پست ها "
+
+#: core/options-init.php:3026
+msgid ""
+"Enable/Disable the post meta on blog posts. You can also control individual "
+"meta settings below."
+msgstr ""
+
+#: core/options-init.php:3032
+#, fuzzy
+msgid "Post Meta Date"
+msgstr "تنظیمات قلم متا پست: تاریخ ، شمارنده ها ، اشتراک گذاری و غیره"
+
+#: core/options-init.php:3033
+msgid "Enable/Disable the post meta date."
+msgstr ""
+
+#: core/options-init.php:3039
+#, fuzzy
+msgid "Post Meta Author"
+msgstr "متا پست ها "
+
+#: core/options-init.php:3040
+msgid "Enable/Disable the post meta author."
+msgstr ""
+
+#: core/options-init.php:3046
+#, fuzzy
+msgid "Post Meta Categories"
+msgstr "نمایش بلوک با متا پست: تاریخ ، دسته ها ، شمارنده ها و غیره"
+
+#: core/options-init.php:3047
+msgid "Enable/Disable the post meta categories."
+msgstr ""
+
+#: core/options-init.php:3053
+#, fuzzy
+msgid "Post Meta Comments"
+msgstr "مشاهده متا پست ها"
+
+#: core/options-init.php:3054
+msgid "Enable/Disable the post meta comments."
+msgstr ""
+
+#: core/options-init.php:3060
+#, fuzzy
+msgid "Post Meta Tags"
+msgstr "متا پست ها "
+
+#: core/options-init.php:3061
+msgid "Enable/Disable the post meta tags."
+msgstr ""
+
+#: core/options-init.php:3069
+msgid "Elements"
+msgstr "Elements"
+
+#: core/options-init.php:3074
+#, fuzzy
+msgid "Elements Settings"
+msgstr "Elements"
+
+#: core/options-init.php:3075
+msgid "Elements general settings that are applied site-wide."
+msgstr ""
+
+#: core/options-init.php:3082
+msgid "Border Radius"
+msgstr "خمیدگی حاشیه"
+
+#: core/options-init.php:3083
+msgid "Edit the border radius for all elements. Pixel value."
+msgstr ""
+
+#: core/options-init.php:3092
+#, fuzzy
+msgid "Cards Border Radius"
+msgstr "خمیدگی اطراف کادر ها (بوردر رادیوس)"
+
+#: core/options-init.php:3093
+msgid "Edit the border radius for card elements. Pixel value."
+msgstr ""
+
+#: core/options-init.php:3104
+msgid "Button"
+msgstr "Button"
+
+#: core/options-init.php:3105
+#, fuzzy
+msgid "Buttons general settings"
+msgstr "تنظیمات > عمومی"
+
+#: core/options-init.php:3111
+msgid "Button Typography"
+msgstr "تایپوگرافی دکمه"
+
+#: core/options-init.php:3112
+#, fuzzy
+msgid "Control the typography for all buttons."
+msgstr "All Buttons in this Zone Align to the left"
+
+#: core/options-init.php:3129
+#, fuzzy
+msgid "Button Border Width"
+msgstr "رنگ خط دکمه"
+
+#: core/options-init.php:3130
+msgid "Control the border width for buttons. Pixel value."
+msgstr ""
+
+#: core/options-init.php:3139
+#, fuzzy
+msgid "Button Border Radius"
+msgstr "خمیدگی اطراف کادر ها (بوردر رادیوس)"
+
+#: core/options-init.php:3140
+msgid "Control the border radius for buttons. Pixel value."
+msgstr ""
+
+#: core/options-init.php:3150
+#, fuzzy
+msgid "Button Box Padding"
+msgstr "پدینگ دکمه"
+
+#: core/options-init.php:3151
+msgid "Controls the top/right/bottom/left padding of the button element."
+msgstr ""
+
+#: core/options-init.php:3157
+#, fuzzy
+msgid "Button Hover Effect"
+msgstr "دکمه شناور است"
+
+#: core/options-init.php:3158
+#, fuzzy
+msgid "Select the button hover effect."
+msgstr "جلوه شناور (هاور) را برای تصویر برجسته انتخاب کنید"
+
+#: core/options-init.php:3171
+#, fuzzy
+msgid "Button Shadow"
+msgstr "سایه دکمه قالب"
+
+#: core/options-init.php:3172
+#, fuzzy
+msgid "Select to enable shadow effect on buttons."
+msgstr "برای تزئین همه دکمه های طرح زمینه ، اثر شناور را انتخاب کنید"
+
+#: core/options-init.php:3185
+msgid "Contact Form"
+msgstr "فرم تماس"
+
+#: core/options-init.php:3186
+#, fuzzy
+msgid "Forms general settings."
+msgstr "تنظیمات > عمومی"
+
+#: core/options-init.php:3192
+#, fuzzy
+msgid "Form Typography"
+msgstr "تایپوگرافی"
+
+#: core/options-init.php:3193
+#, fuzzy
+msgid "Control the typography for form fields."
+msgstr "فیلدهای فرم محاسبه"
+
+#: core/options-init.php:3209
+#, fuzzy
+msgid "Form Background Color"
+msgstr "رنگ پس زمینه"
+
+#: core/options-init.php:3210
+msgid "Controls the background color of form fields."
+msgstr ""
+
+#: core/options-init.php:3218
+#, fuzzy
+msgid "Form Placeholder Text Color"
+msgstr "متن متن نگه دارنده مکان را فرم دهید"
+
+#: core/options-init.php:3219
+msgid "Controls the placeholder text color of form fields."
+msgstr ""
+
+#: core/options-init.php:3228
+#, fuzzy
+msgid "Utility Pages"
+msgstr "صفحات :"
+
+#: core/options-init.php:3233
+#, fuzzy
+msgid "Search Page"
+msgstr "اندازه قلم عنوان صفحه جستجو"
+
+#: core/options-init.php:3234
+#, fuzzy
+msgid "Seach page general settings"
+msgstr "تنظیمات > عمومی"
+
+#: core/options-init.php:3240
+#, fuzzy
+msgid "Search Page General Settings"
+msgstr "تنظیمات > عمومی"
+
+#: core/options-init.php:3247
+msgid "Enable/Disable transparent navigation on search page"
+msgstr ""
+
+#: core/options-init.php:3254
+#, fuzzy
+msgid "Enable/Disable the page sidebar."
+msgstr "فعال کردن / غیر فعال کردن متن کپی رایت"
+
+#: core/options-init.php:3261
+msgid "Enable/Disalbe sticky sidebar functionality."
+msgstr ""
+
+#: core/options-init.php:3272
+#, fuzzy
+msgid "Page title"
+msgstr "عنوان صفحه"
+
+#: core/options-init.php:3273
+#, fuzzy
+msgid "Overwrite the \"Search results for\" page title."
+msgstr "عنوان بنر صفحه جستجو را وارد کنید"
+
+#: core/options-init.php:3284
+#, fuzzy
+msgid "Search Form Settings"
+msgstr "نمایش فرم جستجو"
+
+#: core/options-init.php:3290
+#, fuzzy
+msgid "Search results content"
+msgstr "نتیجه ی جستجو برای \""
+
+#: core/options-init.php:3291
+msgid "Select the type of content to be displayed in search results."
+msgstr ""
+
+#: core/options-init.php:3292
+msgid ""
+"Settings used for the form displayed in Topbar or Main Menu header area."
+msgstr ""
+
+#: core/options-init.php:3313
+msgid "404 Page"
+msgstr "صفحه 404"
+
+#: core/options-init.php:3314
+#, fuzzy
+msgid "404 page general settings"
+msgstr "تنظیمات > عمومی"
+
+#: core/options-init.php:3320 core/options-init.php:3365
+msgid "Page Title"
+msgstr "عنوان صفحه"
+
+#: core/options-init.php:3321
+#, fuzzy
+msgid "Set the 404 page title."
+msgstr "عنوان را وارد کنید (به عنوان مثال صفحه 404)"
+
+#: core/options-init.php:3327
+#, fuzzy
+msgid "Page Subtitle"
+msgstr "زیر نویس صفحه جستجو"
+
+#: core/options-init.php:3328
+#, fuzzy
+msgid "Set the 404 page subtitle."
+msgstr "صفحه 404"
+
+#: core/options-init.php:3334
+#, fuzzy
+msgid "Back to Homepage Button Text"
+msgstr "بازگشت به صفحه خانه"
+
+#: core/options-init.php:3335
+msgid "Set the 404 back to homepage button text."
+msgstr ""
+
+#: core/options-init.php:3343
+#, fuzzy
+msgid "404 Image"
+msgstr "افزودن تصویر 404"
+
+#: core/options-init.php:3344
+#, fuzzy
+msgid "Upload custom image."
+msgstr "بارگذاری تصویر لوگو"
+
+#: core/options-init.php:3351
+#, fuzzy
+msgid "Maintenance Page"
+msgstr "صفحه حالت تعمیر و نگهداری"
+
+#: core/options-init.php:3352
+msgid ""
+"Maintenance mode will be activated only for users that are not logged in."
+msgstr ""
+
+#: core/options-init.php:3358
+#, fuzzy
+msgid "Enable Maintenance Mode"
+msgstr "حالت تعمیر و نگهداری"
+
+#: core/options-init.php:3359
+#, fuzzy
+msgid "Enable/Disable maintenance mode."
+msgstr "فعال کردن / غیر فعال"
+
+#: core/options-init.php:3366
+#, fuzzy
+msgid "Edit maintenance page title "
+msgstr "صفحه حالت تعمیر و نگهداری"
+
+#: core/options-init.php:3373
+#, fuzzy
+msgid "Page Content"
+msgstr "محتوای صفحه 404"
+
+#: core/options-init.php:3374
+#, fuzzy
+msgid "Edit maintenance page content "
+msgstr "محتوای حالت نگهداری"
+
+#: core/options-init.php:3389
+#, fuzzy
+msgid "Page Background Image"
+msgstr "تصویر  پس زمینه عنوان"
+
+#: core/options-init.php:3390
+#, fuzzy
+msgid "Upload page background image."
+msgstr "تصویر  پس زمینه عنوان"
+
+#: core/options-init.php:3399
+msgid "Text Color"
+msgstr "رنگ متن "
+
+#: core/options-init.php:3400
+msgid ""
+"Overwrite text color. If none selected, the default theme color will be used."
+msgstr ""
+
+#: core/options-init.php:3409
+#, fuzzy
+msgid "Enable Countdown"
+msgstr "شمارنده"
+
+#: core/options-init.php:3410
+#, fuzzy
+msgid "Enable/Disable the countdown timer."
+msgstr "شمارنده زمان"
+
+#: core/options-init.php:3417
+#, fuzzy
+msgid "End Day"
+msgstr "تاریخ پایان (روز)"
+
+#: core/options-init.php:3418
+msgid "Enter day value. Eg. 05"
+msgstr ""
+
+#: core/options-init.php:3425
+#, fuzzy
+msgid "End Month"
+msgstr "پایان تاریخ (ماه)"
+
+#: core/options-init.php:3426
+msgid "Enter month value. Eg. 09"
+msgstr ""
+
+#: core/options-init.php:3433
+#, fuzzy
+msgid "End Year"
+msgstr "پایان تاریخ (سال)"
+
+#: core/options-init.php:3434
+msgid "Enter year value. Eg. 2020"
+msgstr ""
+
+#: core/options-init.php:3441
+#, fuzzy
+msgid "Enable Contact Form"
+msgstr "فرم تماس"
+
+#: core/options-init.php:3442
+msgid "Enable/Disable contact form on page."
+msgstr ""
+
+#: core/options-init.php:3506
+msgid "Custom CSS/JS"
+msgstr "CSS/JS"
+
+#: core/options-init.php:3511
+#, fuzzy
+msgid "CSS"
+msgstr "CSS/JS sthvad"
+
+#: core/options-init.php:3512
+msgid ""
+"Enter the custom CSS code in the side field. Do not include any tags or HTML "
+"in the field. Custom CSS added here will overwrite the theme CSS."
+msgstr ""
+
+#: core/options-init.php:3519
+msgid "Javascript"
+msgstr "جاوا اسکریپت"
+
+#: core/options-init.php:3520
+msgid "Enter the custom JavaScript code in the side field."
+msgstr ""
+
+#: core/templates/header/content-title-bar.php:220
+#, fuzzy
+msgid "Search results for:"
+msgstr "نتیجه ی جستجو برای "
+
+#: core/templates/header/content-title-bar.php:224
+#: core/templates/header/content-title-bar.php:271
+#, fuzzy
+msgid "Currently browsing:"
+msgstr "در حال حاضر:"
+
+#: core/templates/header/content-title-bar.php:228
+#, fuzzy
+msgid "All posts tagged:"
+msgstr "برچسب پست \""
+
+#: core/templates/header/content-title-bar.php:232
+#, fuzzy
+msgid "All posts by"
+msgstr "همه ی پست ها"
+
+#: core/templates/header/content-title-bar.php:236
+#: core/templates/header/content-title-bar.php:240
+#: core/templates/header/content-title-bar.php:244
+#, fuzzy
+msgid "Posts archive for"
+msgstr "بایگانی برای"
+
+#: core/templates/page/content-page.php:28
+msgid "Pages:"
+msgstr "صفحات:"
+
+#: core/templates/portfolio/content-project-nav.php:11
+#: core/templates/post/partials/content-navigation.php:8
+msgid "Previous"
+msgstr "قبل"
+
+#: core/templates/portfolio/content-project-nav.php:18
+#: core/templates/post/partials/content-navigation.php:9
+msgid "Next"
+msgstr "بعد"
+
+#: core/templates/portfolio/project-minimal-grid.php:45
+#, fuzzy
+msgid "View project"
+msgstr "پروژه قبلی"
+
+#: core/templates/post/blog-detailed-grid.php:42
+#: core/templates/post/blog-img-top-list.php:26
+#: core/templates/post/blog-minimal-grid.php:38
+#: core/templates/post/content-search.php:63
+msgid "Read more"
+msgstr "ادامه مط لب"
+
+#: core/templates/post/content-none.php:15
+msgid "Nothing Found"
+msgstr "پیدا نشد"
+
+#: core/templates/post/content-none.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"آماده ارسال اولین پست خود هستید؟<a href=\"%1$s\">از اینجا شروع کنید</a>."
+
+#: core/templates/post/content-none.php:20
+#, fuzzy
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again using "
+"different keywords."
+msgstr ""
+"متأسفیم ، اما هیچ چیزی با شرایط جستجوی شما مطابقت ندارد. لطفاً با برخی از "
+"کلمات کلیدی مختلف دوباره امتحان کنید."
+
+#: core/templates/post/content-none.php:23
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"به نظر می رسد ما می توانیم چیزی را پیدا کنیم که به دنبال آن هستیم. شاید "
+"جستجو بتواند کمک کند."
+
+#: core/templates/post/content-search.php:29
+msgid "Post"
+msgstr "پست"
+
+#: core/templates/post/content-search.php:40
+#: core/templates/post/partials/content-meta.php:45
+#, fuzzy
+msgid "No comments yet"
+msgstr "نظر"
+
+#: core/templates/post/content-search.php:40
+#: core/templates/post/partials/content-meta.php:45
+#, fuzzy
+msgid "1 comment"
+msgstr "1 نظر"
+
+#: core/templates/post/content-search.php:40
+#: core/templates/post/partials/content-meta.php:45
+#, php-format
+msgid "% comments"
+msgstr "%نظر"
+
+#: core/templates/post/content-search.php:47
+msgid "Page"
+msgstr "صفحه "
+
+#: core/templates/post/content-search.php:51
+msgid "Product"
+msgstr "Product"
+
+#: core/templates/post/partials/content-author.php:22
+msgid "Author:"
+msgstr "نویسنده:"
+
+#: core/templates/post/partials/content-author.php:26
+#, fuzzy
+msgid "Website:"
+msgstr "وب سایت*"
+
+#: core/templates/post/partials/content-meta.php:25
+#, fuzzy
+msgid "Sticky"
+msgstr "چسبنده"
+
+#: core/theme-activation.php:10
+msgid "Redux Framework"
+msgstr "فریم ورک ردوکس"
+
+#: core/theme-activation.php:15
+#, fuzzy
+msgid "WPBakery Page Builder"
+msgstr ""
+"نوع طرح را انتخاب کنید. (لطفا توجه داشته باشید: لطفاً طرح \"کشش ردیف\" را از "
+"\"سازنده صفحه\" WPBakery \"تنظیمات ردیف\" / \"تنظیمات بخش\" برای طرح \"Boxed"
+"\" روی \"پیش فرض\" تنظیم کنید.)"
+
+#: core/theme-activation.php:24
+msgid "KeyDesign Addon"
+msgstr ""
+
+#: core/theme-activation.php:34
+msgid "Slider Revolution"
+msgstr "اسلایدر روولیشن"
+
+#: core/theme-activation.php:43
+msgid "Envato Market"
+msgstr "انواتو مارکت"
+
+#: core/theme-activation.php:57
+msgid "Contact Form 7"
+msgstr "فرم تماس 7"
+
+#: core/theme-activation.php:62
+#, fuzzy
+msgid "Breadcrumb NavXT"
+msgstr "بردکامب"
+
+#: core/theme-activation.php:78
+msgid "Plugins"
+msgstr "پلاگین ها"
+
+#: core/theme-activation.php:83
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+"متأسفیم ، اما شما مجوزهای صحیحی برای نصب افزونه %s ندارید. برای راهنمایی در "
+"مورد نصب افزونه با مدیر این سایت تماس بگیرید."
+
+#: core/theme-activation.php:86
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+"متأسفیم ، اما شما مجوزهای صحیحی برای نصب افزونه %s ندارید. برای راهنمایی در "
+"مورد نصب افزونه با مدیر این سایت تماس بگیرید."
+
+#: core/theme-activation.php:88
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgstr ""
+"متأسفیم ، اما شما مجوزهای صحیحی برای نصب افزونه %s ندارید. برای راهنمایی در "
+"مورد نصب افزونه با مدیر این سایت تماس بگیرید."
+
+#: core/theme-activation.php:90
+#, fuzzy
+msgid "Activate installed plugin"
+msgstr "%1$sبا موفقیت نصب شد."
+
+#: core/theme-activation.php:93
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "تمام پلاگینها با موفقیت نصب و فعال شدند. %1$s"
+
+#: core/theme-sidebars.php:10
+#, fuzzy
+msgid "Blog Sidebar"
+msgstr "نوار کناری  وبلاگ"
+
+#: core/theme-sidebars.php:13
+msgid ""
+"Add widgets for the blog sidebar area. If none added, default sidebar "
+"widgets will be used."
+msgstr ""
+
+#: core/theme-sidebars.php:23
+msgid "Shop Sidebar"
+msgstr "نوار کناری فروشگاه"
+
+#: core/theme-sidebars.php:26
+msgid "A sidebar that only appears on WooCommerce Shop pages."
+msgstr ""
+
+#: core/theme-sidebars.php:37
+#, fuzzy
+msgid "bbPress Sidebar"
+msgstr "بی بی پرس و بادی پرس"
+
+#: core/theme-sidebars.php:40
+msgid "A sidebar that only appears on bbPress pages."
+msgstr ""
+
+#: core/theme-sidebars.php:51
+msgid "Page Sidebar"
+msgstr "نوار کناری صفحه"
+
+#: core/theme-sidebars.php:54
+msgid "Add widgets for the single page sidebar area."
+msgstr ""
+
+#: core/theme-sidebars.php:64
+#, fuzzy
+msgid "Footer first widget area"
+msgstr "منطقه ابزارک پاورقی سه"
+
+#: core/theme-sidebars.php:67
+msgid "Add widgets for the first footer widget area."
+msgstr ""
+
+#: core/theme-sidebars.php:77
+#, fuzzy
+msgid "Footer second widget area"
+msgstr "منطقه ابزارک پاورقی 3"
+
+#: core/theme-sidebars.php:80
+msgid "Add widgets for the second footer widget area."
+msgstr ""
+
+#: core/theme-sidebars.php:90
+#, fuzzy
+msgid "Footer third widget area"
+msgstr "منطقه ابزارک پاورقی سه"
+
+#: core/theme-sidebars.php:93
+msgid "Add widgets for the third footer widget area."
+msgstr ""
+
+#: core/theme-sidebars.php:103
+#, fuzzy
+msgid "Footer fourth widget area"
+msgstr "منطقه ابزارک اول پاورقی"
+
+#: core/theme-sidebars.php:106
+msgid "Add widgets for the fourth footer widget area."
+msgstr ""
+
+#: core/theme-sidebars.php:116
+#, fuzzy
+msgid "Footer fifth widget area"
+msgstr "منطقه ابزارک اول پاورقی"
+
+#: core/theme-sidebars.php:119
+msgid "Add widgets for the fifth footer widget area."
+msgstr ""
+
+#: core/theme-sidebars.php:129
+#, fuzzy
+msgid "Footer sixth widget area"
+msgstr "منطقه ابزارک اول پاورقی"
+
+#: core/theme-sidebars.php:132
+msgid "Add widgets for the sixth footer widget area."
+msgstr ""
+
+#: core/theme-woocommerce.php:77
+msgid "Sale"
+msgstr "حراج"
+
+#: core/theme-woocommerce.php:236
+#, fuzzy
+msgid "Subtotal:"
+msgstr "مجموع"
+
+#: core/theme-woocommerce.php:238
+msgid "View cart"
+msgstr "مشاهده سبد خرید"
+
+#: core/theme-woocommerce.php:239
+msgid "Checkout"
+msgstr "پرداخت"
+
+#: core/theme-woocommerce.php:242 core/theme-woocommerce.php:280
+msgid "Your cart is currently empty."
+msgstr "سبد خرید شما خالی است"

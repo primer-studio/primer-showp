@@ -1,0 +1,376 @@
+@font-face{
+	font-family: 'iranyekan';
+	src: url('fonts/iranyekanwebregular.eot');
+	src: url('fonts/iranyekanwebregular.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+	url('fonts/iranyekanwebregular.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+	url('fonts/iranyekanwebregular.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	url('fonts/iranyekanwebregular.ttf') format('truetype');
+}
+@font-face {
+font-family: "aviny";
+src: url('fonts/aviny.ttf') format('truetype');
+}
+@font-face {
+	  font-family: "Lalezar";
+	  src: url("fonts/LalezarRegular.ttf");
+}
+@font-face {
+	font-family: iransans;
+	font-style: normal;
+	font-weight: 900;
+	src: url('./fonts/eot/IRANSansWeb(FaNum)_Black.eot');
+	src: url('./fonts/eot/IRANSansWeb(FaNum)_Black.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('./fonts/woff2/IRANSansWeb(FaNum)_Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('./fonts/woff/IRANSansWeb(FaNum)_Black.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('./fonts/ttf/IRANSansWeb(FaNum)_Black.ttf') format('truetype');
+}
+@font-face {
+	font-family: iransans;
+	font-style: normal;
+	font-weight: bold;
+	src: url('./fonts/eot/IRANSansWeb(FaNum)_Bold.eot');
+	src: url('./fonts/eot/IRANSansWeb(FaNum)_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('./fonts/woff2/IRANSansWeb(FaNum)_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('./fonts/woff/IRANSansWeb(FaNum)_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('./fonts/ttf/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: iransans;
+	font-style: normal;
+	font-weight: 500;
+	src: url('./fonts/eot/IRANSansWeb(FaNum)_Medium.eot');
+	src: url('./fonts/eot/IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('./fonts/woff2/IRANSansWeb(FaNum)_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('./fonts/woff/IRANSansWeb(FaNum)_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('./fonts/ttf/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: iransans;
+	font-style: normal;
+	font-weight: 300;
+	src: url('./fonts/eot/IRANSansWeb(FaNum)_Light.eot');
+	src: url('./fonts/eot/IRANSansWeb(FaNum)_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('./fonts/woff2/IRANSansWeb(FaNum)_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('./fonts/woff/IRANSansWeb(FaNum)_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('./fonts/ttf/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: iransans;
+	font-style: normal;
+	font-weight: 200;
+	src: url('./fonts/eot/IRANSansWeb(FaNum)_UltraLight.eot');
+	src: url('./fonts/eot/IRANSansWeb(FaNum)_UltraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('./fonts/woff2/IRANSansWeb(FaNum)_UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('./fonts/woff/IRANSansWeb(FaNum)_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('./fonts/ttf/IRANSansWeb(FaNum)_UltraLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: iransans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/eot/IRANSansWeb(FaNum).eot');
+	src: url('./fonts/eot/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('./fonts/woff2/IRANSansWeb(FaNum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('./fonts/woff/IRANSansWeb(FaNum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('./fonts/ttf/IRANSansWeb(FaNum).ttf') format('truetype');
+}
+@font-face {
+  font-family: "dima";
+  src: url('fonts/myfont2.eot') format("embedded-opentype"), url('fonts/myfont2.woff2') format("woff2"), url('fonts/myfont2.woff') format("woff"), url('fonts/myfont2.ttf') format("truetype"), url('fonts/myfont.svg#myfont') format("svg");
+}
+body {
+    font-family: iransans !important;
+    letter-spacing: 0 !important;
+}
+h1; h2; h3; h4; h5; h6; p {
+    font-family: iransans !important;
+    letter-spacing: 0 !important;
+}
+h1, h2, h3, h4, h5, .container h1, .container h2, .container h3, .container h4, .container h5 {
+    letter-spacing: 0 !important;
+    font-family: iransans !important;
+}
+@media (min-width: 1270px)
+.navbar-nav>li {
+    float: right !important;
+}
+.menubar #main-menu .navbar-nav .mega-menu.menu-item-has-children .dropdown > a {
+    text-align: right !important;
+}
+.menubar #main-menu .navbar-nav .menu-item-has-children.mega-menu .dropdown-menu .dropdown-menu {
+    text-align: right !important;
+}
+#main-menu.background-dropdown-effect .navbar-nav .menu-item-has-children .dropdown-menu a, .background-dropdown-effect .navbar-nav .menu-item-has-children .dropdown-menu a {
+    text-align: right !important;
+}
+.search .topbar-search .search-form .search-field, .topbar-search .search-form .search-field {
+    text-align: right !important;
+}
+.video-container.cover-image-leaf img {
+    border-radius: 0 60px !important;
+}
+.kd-section-title .subtitle {
+    letter-spacing: 0 !important;
+    font-family: iransans !important;
+}
+.key-icon-box.icon-left.icon-default i {
+    float: right !important;
+}
+.key-icon-box h6.service-heading {
+    font-family: iransans !important;
+}
+.clients.owl-carousel .owl-wrapper-outer {
+    direction: ltr;
+}
+.kd-calltoaction .cta-text h2, #single-page .kd-calltoaction .cta-text h2 {
+    text-align: right !important;
+}
+.kd-calltoaction .cta-text, .kd-calltoaction.icon_browser .cta-text, .kd-calltoaction.custom_image .cta-text {
+    float: right !important;
+}
+.rw-author-details {
+    text-align: right !important;
+}
+#single-page .rw-author-details p, .rw-author-details p {
+    text-align: right !important;
+}
+.key-reviews .rw_title {
+    text-align: right !important;
+	direction: rtl;
+}
+.rw_rating {
+    text-align: right !important;
+	direction: rtl;
+}
+.rw_message {
+    text-align: right !important;
+	direction: rtl;
+}
+.owl-carousel .owl-wrapper-outer {
+    direction: ltr;
+}
+.key-tcards {
+    text-align: right !important;
+    direction: rtl;
+}
+.tcards_message h6 {
+    font-family: iransans !important;
+}
+.container h6 {
+    font-family: iransans !important;
+}
+.container .section-subheading, .blog-page-heading .section-subheading {
+    font-family: iransans !important;
+}
+#comments #respond #reply-title, .reply-title, .widget-title, #reply-title {
+    text-align: right !important;
+}
+div.wpforms-container-full .wpforms-form input[type=email], div.wpforms-container-full .wpforms-form input[type=number], div.wpforms-container-full .wpforms-form input[type=search], div.wpforms-container-full .wpforms-form input[type=text], div.wpforms-container-full .wpforms-form input[type=url], div.wpforms-container-full .wpforms-form select, div.wpforms-container-full .wpforms-form textarea, .upper-footer select, .wpb_wrapper #loginform .input, .woocommerce-product-search .search-field, .search-form .search-field, .wpcf7 input[type="date"], .wpcf7 .wpcf7-text, .wpcf7 .wpcf7-number, .wpcf7 .wpcf7-email, .wpcf7 .wpcf7-select {
+    text-align: right !important;
+}
+ul.redux-social-media-list li {
+    float: right !important;
+}
+.breadcrumbs .fa:nth-last-of-type(2) {
+    transform: rotate(180deg) !important;
+}
+#single-page p {
+    direction: rtl;
+}
+.kd_counter_number {
+	direction: ltr;
+}
+.entry-header {
+    text-align: right !important;
+}
+.testimonials.slider.with-image .tt-container {
+    direction: rtl;
+    text-align: right !important;
+}
+.testimonials.slider.with-image .tt-container .content, .testimonials.slider.with-image .tt-container .author {
+    text-align: right !important;
+}
+.content-area .vc_basic_grid .vc_grid .blog-detailed-grid .vc_gitem-post-category-name {
+    float: right !important;
+}
+#wrapper .vc_gitem-zone.blog-detailed-grid.blog-detailed-grid .entry-wrapper .tt_button {
+    float: right !important;
+}
+.breadcrumbs .fa {
+    transform: rotate(180deg) !important;
+}
+.wpcf7-form textarea, #commentform textarea, #single-page .wpcf7-form-control-wrap textarea {
+    text-align: right !important;
+}
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output {
+    direction: rtl;
+    text-align: right !important;
+}
+.wpcf7 form.sent .wpcf7-response-output {
+    text-align: right !important;
+    direction: rtl;
+}
+.feature-sections-wrapper .side-content-wrapper .simple-link:after {
+    transform: rotate(180deg) !important;
+    margin-right: 10px !important;
+    float: left !important;
+}
+.text-left {
+    text-align: right !important;
+}
+.kd-process-steps.process-number-template ul li .pss-container:before {
+    transform: rotate(180deg) !important;
+}
+.testimonials.slider.without-image .tt-content h6 {
+    direction: rtl;
+}
+@media (min-width: 1200px)
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+    float: right !important;
+}
+.keydesign-cart ul.cart_list li, .keydesign-cart ul.product_list_widget li .woocommerce .keydesign-cart ul.cart_list li, .woocommerce .keydesign-cart ul.product_list_widget li {
+    text-align: right !important;
+}
+.keydesign-cart ul.cart_list li.subtotal {
+    float: right !important;
+}
+.keydesign-cart ul.cart_list li.subtotal {
+    text-align: right !important;
+}
+#main-menu .navbar-nav .menu-item-has-children:hover .dropdown-menu .dropdown > a::before {
+    transform: rotate(180deg) !important;
+}
+@media only screen and (max-width: 600px) {
+  #single-page .cb-text-area p, .cb-text-area p {
+    text-align: center !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .row .vc_toggle_size_md.vc_toggle_default .vc_toggle_title h4 {
+    text-align: right !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .row .vc_toggle_size_md.vc_toggle_default .vc_toggle_content p {
+    text-align: right !important;
+  }
+}
+.wpcf7 input[type="url"], .wpcf7 input[type="email"], .wpcf7 input[type="tel"] {
+    direction: rtl !important;
+}
+@media (max-width: 960px)
+body, .box, .cb-text-area p, body p, .upper-footer .search-form .search-field, .upper-footer select, .footer_widget .wpml-ls-legacy-dropdown a, .footer_widget .wpml-ls-legacy-dropdown-click a {
+    text-align: center !important;
+}
+@media (max-width: 960px)
+.row .vc_toggle_size_md.vc_toggle_default .vc_toggle_title h4 {
+    text-align: right !important;
+}
+@media (max-width: 960px)
+.row .vc_toggle_size_md.vc_toggle_default .vc_toggle_content p {
+    text-align: right !important;
+}
+#single-page .woocommerce ul.products li.product.woo-detailed-style h2, #single-page .woo-detailed-style ul.products li.product h2, #wrapper .woo-detailed-style ul.products li.product h2, .woocommerce ul.products li.product.woo-detailed-style h2, #single-page .woocommerce ul.products li.product.woo-detailed-style h3, .woocommerce ul.products li.product.woo-detailed-style h3 {
+    text-align: right !important;
+}
+.woo-detailed-style ul.products li.product .price, .woocommerce ul.products li.product.woo-detailed-style .price {
+    float: right !important;
+	direction: ltr;
+}
+.wpcf7 .acceptance-subscribe label, .blog-subscribe-wrapper .wpcf7-form label {
+    direction: rtl;
+    text-align: right !important;
+}
+.vc_grid-item-mini .vc_custom_heading h5 {
+    letter-spacing: 0 !important;
+    text-align: right !important;
+}
+.content-area .vc_basic_grid .vc_grid .blog-detailed-grid .vc_gitem-post-category-name a {
+    letter-spacing: 0 !important;
+}
+@media (max-width: 960px)
+.team-member.design-classic .team-content p {
+    text-align: center !important;
+}
+.key-icon-box.icon-left.icon-default i {
+    padding-left: 10px !important;
+}
+@media (max-width: 960px)
+.vc_row .container h2, .container .tab-text-container h2, header.kd-section-title h2, .container h2 {
+    text-align: right !important;
+}
+@media (max-width: 960px)
+.feature-sections-wrapper .side-featured-wrapper, .feature-sections-wrapper .side-content-wrapper {
+    text-align: right !important;
+}
+@media (max-width: 959px)
+.side-content-text ul li, .wpb_text_column ul li, .wpb_text_column ol li {
+    text-align: right !important;
+}
+@media (max-width: 960px)
+.vc_row .container h2, .container .tab-text-container h2, header.kd-section-title h2, .container h2 {
+    text-align: right !important;
+}
+@media (max-width: 960px)
+.feature-sections-wrapper .side-featured-wrapper, .feature-sections-wrapper .side-content-wrapper {
+    text-align: right !important;
+}
+@media (max-width: 960px)
+.kd-text-rotator h3.kd-text-rotator-container, .kd-text-rotator h2.kd-text-rotator-container, .container h2.rotator-single, .vc_row .container h2, .container h3.vc_custom_heading, .kd-calltoaction .cta-text h3, #single-page .kd-calltoaction .cta-text h3, .container .tab-text-container h2, header.kd-section-title h2 {
+    text-align: right !important;
+}
+.key-icon-box .ib-badge {
+    letter-spacing: 0 !important;
+}
+@media (max-width: 960px)
+header.kd-section-title:not(.disable-responsive) {
+    z-index: 99999 !important;
+}
+.port-next.tt_button .arrow:before {
+    transform: rotate(180deg) !important;
+}
+.port-prev.tt_button .arrow:before {
+    transform: rotate(180deg) !important;
+}
+.portfolio .entry-categories ul, .post .entry-categories ul {
+    direction: rtl;
+}
+.related-posts .post .entry-wrapper, .related-content .portfolio .entry-wrapper {
+    direction: rtl;
+}
+.related-posts .portfolio .tt_button .fa.fa-chevron-right, .post .tt_button .fa.fa-chevron-right, #posts-content .tt_button .fa.fa-chevron-right {
+    transform: rotate( 180deg) !important;
+}
+.blog-page-numbers li.next-post-link a:before, .blog-page-numbers li.prev-post-link a:before {
+    transform: rotate(180deg) !important;
+}
+.search-no-results #posts-content .section-subheading {
+    text-align: right !important;
+}
+#posts-content .blog-single-title {
+    text-align: right !important;
+}
+.use-sidebar .blog-single-title-meta-wrapper {
+    text-align: right !important;
+}
+.woocommerce table.shop_table {
+    text-align: right !important;
+}
+th {
+    text-align: right !important;
+}
+.woocommerce-cart #single-page .cart_totals h2 {
+    text-align: right !important;
+}
+.woocommerce-checkout .woocommerce form.checkout_coupon {
+    text-align: right !important;
+}
+#add_payment_method #payment ul.payment_methods li, .woocommerce-cart #payment ul.payment_methods li, .woocommerce-checkout #payment ul.payment_methods li {
+    text-align: right !important;
+}
+.woocommerce nav.woocommerce-pagination ul li a.prev:before, .woocommerce nav.woocommerce-pagination ul li a.next:before {
+    transform: rotate(180deg) !important;
+}
+.woocommerce div.product .product_title {
+    text-align: right !important;
+}
