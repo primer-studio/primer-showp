@@ -22,10 +22,10 @@
                     </div>
                     <div class="book-img text-align-center size-350-430">
                         <?php
-                        $post_attributes = [
-                                'alt' => get_the_title(),
-                                'class' => 'book-cover'
-                        ];
+                            $post_attributes = [
+                                    'alt' => get_the_title(),
+                                    'class' => 'book-cover'
+                            ];
                         ?>
                         <?php echo the_post_thumbnail(null, $post_attributes); ?>
                     </div>

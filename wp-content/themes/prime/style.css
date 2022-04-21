@@ -1,5 +1,5 @@
 /*
-Theme Name: miras-ahle-qalam
+Theme Name: miras-ahle-qalam-latest-safe
 Theme URI: primerstudio.io
 Author: studio primer
 Author URI: primerstudio.io
@@ -15,6 +15,25 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 @import "template-parts/assets/Fonts/Pelak/pelak.css";
 @import "custom.css";
+
+.author-bibliography-item:last-child{
+    border-bottom: none;
+}
+
+.author-book-title h5{
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.author-book-title h5::before{
+    content: "";
+    width: 20px; height: 20px;
+    background-color: var(--main-color-blue);
+    display: inline-block;
+    vertical-align: sub;
+    margin-left: 30px;
+}
+
 
 :root{
     --main-color-gold: #CBA044;
@@ -241,7 +260,7 @@ header{
 }
 
 .shopping-badge i{
-    
+
     font-size: 12px;
     color: var(--color-white);
 }
@@ -466,7 +485,7 @@ main{
 
 .main-wrapper{
     max-width: 1280px;
-    
+
     display: flex;
     flex-flow: row wrap;
 }
@@ -480,6 +499,7 @@ main{
 .book-item{
     width: 100%;
     direction: rtl;
+    margin: 100px 0px;
 
     display: flex;
     flex-flow: row wrap;
@@ -494,6 +514,10 @@ main{
     position: absolute;
 
     z-index: -1;
+}
+
+.book-item:first-child{
+    margin-top: 0px;
 }
 
 
@@ -692,25 +716,6 @@ main{
     border-bottom: 3px solid #DBDBDB;
 }
 
-.author-bibliography-item:last-child{
-    border-bottom: none;
-}
-
-.author-book-title h5{
-    font-size: 32px;
-    font-weight: normal;
-}
-
-
-.author-book-title h5::before{
-    content: "";
-    width: 20px; height: 20px;
-    background-color: var(--main-color-blue);
-    display: inline-block;
-    vertical-align: sub;
-    margin-left: 30px;
-}
-
 
 
 /* Single Book */
@@ -745,7 +750,7 @@ main{
 
 .single-book-title-and-shop{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -852,7 +857,7 @@ main{
     background: var(--main-color-blue);
     padding: 5px 20px;
     display: inline-block;
-    
+
     font-size: 12px;
     font-weight: normal;
     color: var(--color-white);
@@ -860,6 +865,208 @@ main{
     border-radius: 25px;
     margin: 5px;
 }
+
+
+
+
+/*** Data Entry ***/
+.data-entry-wrapper{
+    flex: 1 0 1200px;
+    background-color: #FEFEFE;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 25px;
+    margin: 50px 0px;
+    direction: rtl;
+    border-radius: 25px;
+}
+
+.data-entry-right{
+    width: 50%;
+    padding: 0px 25px;
+}
+
+.input-wrappers{
+    width: 100%;
+}
+
+.input-wrappers .form-row{
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.input-wrappers .form-row-double{
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.input-wrappers .form-row-checkbox{
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.input-wrappers .form-row-checkbox input[type=checkbox]{
+    margin-left: 5px;
+}
+
+.input-wrappers .form-row div{
+
+}
+
+.input-wrappers .form-row label{
+    margin-bottom: 15px
+}
+
+input[type=text] ,input[type=email]{
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+    width: 250px; height: 50px;
+    background-color: var(--color-white);
+    padding: 15px;
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--color-black);
+    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+    background-color: var(--color-white);
+    padding: 15px;
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--color-black);
+    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+select{
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+    width: 250px; height: 50px;
+    background-color: var(--color-white);
+    padding: 15px;
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--color-black);
+    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+.data-entry-left{
+    width: 50%;
+    padding: 0px 25px;
+}
+
+.invoice-wrapper{
+    width: 100%;
+}
+
+.invoice{
+    padding: 50px 25px;
+
+    border-radius: 25px;
+    box-shadow: 0px 3px 25px 0px rgba(0, 0, 0, 0.15);
+}
+
+.invoice-item{
+    max-width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.invoice-item p{
+    font-size: 16px;
+    padding: 10px 10px;
+    color: var(--color-black);
+}
+
+.invoice-item div.doted{
+    flex: 1 0 auto;
+    height: 2px;
+    border-bottom: 2.5px dotted rgba(0, 0, 0, 0.75);
+}
+
+.invoice-item p:last-child{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color-black);
+}
+
+.invoice-item p:last-child span{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.invoice hr{
+    border:1px solid rgba(0, 0, 0, 0.65);
+    margin: 25px 0px;
+}
+
+
+.invoice-btn-wrapper{
+    width: 100%;
+}
+
+.pay-btn{
+    background-color: #58DC75;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;
+    margin-top: 50px;
+
+    border-radius: 25px;
+    box-shadow: 0px 2px 25px 0px rgba(0, 0, 0, 0.10);
+}
+
+.pay-btn p{
+    font-size: 24px;
+    font-weight: normal;
+    color: var(--color-white);
+}
+
+.cancel-btn{
+    background-color: #E0E0E0;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;
+    margin-top: 25px;
+
+    border-radius: 25px;
+    box-shadow: 0px 2px 25px 0px rgba(0, 0, 0, 0.10);
+}
+
+.cancel-btn p{
+    font-size: 24px;
+    font-weight: normal;
+    color: var(--color-black );
+}
+
+
+
 
 
 
@@ -1068,9 +1275,9 @@ footer::after{
     .mobile-header{
         display: flex;
     }
-    
 
-    
+
+
     /* Single Book Wrapper */
     .single-book-wrapper{
         flex-flow: column wrap;
@@ -1083,10 +1290,10 @@ footer::after{
         margin-left: 0px;
     }
 
-    
 
 
-   /* Book Section */
+
+    /* Book Section */
     .book-info{
         flex: 0 1 250px;
         flex-flow: column wrap;
@@ -1135,14 +1342,14 @@ footer::after{
         display: none;
         margin-top: 180px;
     }
-    
+
 
     .author-img{
         max-width: 250px;
         margin-left: 0px;
         margin-bottom: 25px;
     }
-    
+
     .author-info{
         height: auto;
         padding-top: 0px;
@@ -1155,7 +1362,7 @@ footer::after{
         display: block;
         position: absolute;
         right: 0;
-    
+
         z-index: -1;
     }
 
@@ -1272,12 +1479,12 @@ footer::after{
         margin-bottom: 25px;
     }
 
-    
+
 
     .single-book-tag-box{
         padding: 0px;
     }
-    
+
 
 
     /* Book Section */

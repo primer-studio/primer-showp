@@ -44,6 +44,18 @@
 </footer>
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(). '/template-parts/assets/js/main.js'; ?>"></script>
 <?php wp_footer(); ?>
-<?php global $template; echo $template; ?>
+<?php if(isset($_GET['add-to-cart']) && !is_null($_GET['add-to-cart'])): ?>
+    <?php
+    $product = wc_get_product( $_GET['add-to-cart'] );
+    ?>
+    <script>
+        Swal.fire({
+            title: '<?php echo __translate_array('fa', 'added to cart.', $product->name . " ");?>',
+            icon: 'success',
+            confirmButtonText: '<?php __translate_array('fa', 'close'); ?>',
+            showCloseButton: true
+        })
+    </script>
+<?php endif; ?>
 </body>
 </html>

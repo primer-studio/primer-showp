@@ -1,0 +1,61 @@
+2022-04-21T12:38:47+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function is_wp_error(), 0 passed in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php on line 20 and exactly 1 expected in C:\xampp\htdocs\ketabShop\wp-includes\load.php:1551
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php(20): is_wp_error()
+#1 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#3 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#4 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#5 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#6 C:\xampp\htdocs\ketabShop\wp-includes\shortcodes.php(356): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#7 [internal function]: do_shortcode_tag(Array)
+#8 C:\xampp\htdocs\ketabShop\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#9 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): do_shortcode('[woocommerce_ch...')
+#10 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#11 C:\xampp\htdocs\ketabShop\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#12 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\page.php(9): the_content()
+#13 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-includes\load.php روی خط 1551
+
+2022-04-21T13:39:29+00:00 CRITICAL Uncaught Error: Call to a member function needs_payment() on null in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#2 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\xampp\htdocs\ketabShop\wp-includes\shortcodes.php(356): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\xampp\htdocs\ketabShop\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): do_shortcode('[woocommerce_ch...')
+#9 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#10 C:\xampp\htdocs\ketabShop\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#11 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\page.php(9): the_content()
+#12 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 185
+
+2022-04-21T14:02:12+00:00 CRITICAL Uncaught Error: Call to a member function needs_payment() on null in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#2 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\xampp\htdocs\ketabShop\wp-includes\shortcodes.php(356): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\xampp\htdocs\ketabShop\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): do_shortcode('[woocommerce_ch...')
+#9 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#10 C:\xampp\htdocs\ketabShop\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#11 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\page.php(9): the_content()
+#12 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 185
+

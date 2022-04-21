@@ -8,6 +8,8 @@
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/template-parts/assets/js/main.js'; ?>"></script>
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/template-parts/assets/css/bootstrap.css'; ?>">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="<?php echo get_template_directory_uri() . "/template-parts/assets/js/city.js"; ?>"></script>
 </head>
 
 <body>
@@ -74,7 +76,7 @@
             <a href="#">
                 <div class="shopping-bag">
                     <div class="shopping-bag-icon">
-                        <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/shopping-bag.svg'; ?>" alt="آیکون سبد خرید">
+                        <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/shopping-bag.svg'; ?>">
                     </div>
                     <div class="shopping-badge">
                         <i><?php echo str_en_to_fa(WC()->cart->get_cart_contents_count()); ?></i>
@@ -93,18 +95,18 @@
     <div id="mobile-nav" class="mobile-nav-wrapper transition-300">
         <div class="mobile-nav-wrap">
             <div class="mobile-nav-logo">
-                <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/Mobile-Side-Nav-Logo.svg'; ?>" alt="لوگو انتشارات میراث اهل قلم"/>
+                <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/Mobile-Side-Nav-Logo.svg'; ?>" alt="انتشارات میراث اهل قلم">
             </div>
             <div class="mobile-nav-btn-wrap">
                 <div class="register-btn btn btn-small btn-type-1">
                     <a href="#">
-                        <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/Register-icon.svg'; ?>" alt="آیکون ثبت نام">
+                        <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/Register-icon.svg'; ?>">
                         ثبت نام
                     </a>
                 </div>
                 <div class="login-btn btn btn-small btn-type-2">
                     <a href="#">
-                        <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/login-icon.svg'; ?>" alt="آیکون ثبت نام">
+                        <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/login-icon.svg'; ?>">
                         ورود
                     </a>
                 </div>

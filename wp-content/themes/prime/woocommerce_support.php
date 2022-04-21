@@ -2,6 +2,14 @@
 function mytheme_add_woocommerce_support() {
     add_theme_support( "woocommerce" );
 }
+
+function mytheme_remove_woocommerce_sidebar(){
+//    if( is_checkout() || is_cart() || is_product() ){
+//        remove_action( 'woocommerce_sidebar', 'woocommerce_get_sidebar', 10 );
+//    }
+    remove_action( 'woocommerce_sidebar', 'woocommerce_get_sidebar', 10 );
+}
+add_action('woocommerce_before_main_content', 'mytheme_remove_woocommerce_sidebar' );
 add_action( "after_setup_theme","mytheme_add_woocommerce_support" );
 
 add_theme_support( "wc-product-gallery-zoom" );
