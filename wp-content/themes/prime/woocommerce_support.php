@@ -42,6 +42,7 @@ function add_custom_taxonomy($name, $singular, $after_singular) {
         "show_admin_column"          => true,
         "show_in_nav_menus"          => true,
         "show_tagcloud"              => true,
+        "has_archive"              => true,
     );
     register_taxonomy( "$name", "product", $args );
     register_taxonomy_for_object_type( "$name", "product" );
@@ -53,3 +54,8 @@ function register_custom_taxonomies() {
 }
 
 add_action( "init", "register_custom_taxonomies" );
+add_action("init", 'custom_taxonomy_flush_rewrite');
+function custom_taxonomy_flush_rewrite() {
+    global $wp_rewrite;
+    $wp_rewrite->flush_rules();
+}

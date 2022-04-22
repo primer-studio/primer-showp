@@ -1,0 +1,42 @@
+2022-04-22T06:34:51+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\header.php:55
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php(2): get_header()
+#4 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\header.php روی خط 55
+
+2022-04-22T06:34:58+00:00 CRITICAL Uncaught Error: Call to undefined function the_term_link() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\header.php:55
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php(2): get_header()
+#4 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\header.php روی خط 55
+
+2022-04-22T07:01:20+00:00 CRITICAL syntax error, unexpected token "else", expecting end of file در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php روی خط 18
+
+2022-04-22T07:03:51+00:00 CRITICAL Uncaught Error: Call to undefined function term_id() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php:8
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php روی خط 8
+
+2022-04-22T07:03:56+00:00 CRITICAL Uncaught Error: Undefined constant "term_id" in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php:8
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php روی خط 8
+

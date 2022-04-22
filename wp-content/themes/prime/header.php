@@ -46,19 +46,19 @@
             <div class="navbar">
                 <ul>
                     <li>
-                        <a href="#">صفحه اصلی</a>
+                        <a href="<?php echo home_url(null, true) ?>">صفحه اصلی</a>
                     </li>
                     <li>
                         <a href="#">کتاب ها</a>
                     </li>
                     <li>
-                        <a href="#">پدید آورندگان</a>
+                        <a href="<?php echo home_url('/authors/', true); ?>">پدید آورندگان</a>
                     </li>
                     <li>
-                        <a href="#">درباره ما</a>
+                        <a href="<?php echo home_url('/about-us/', true); ?>">درباره ما</a>
                     </li>
                     <li>
-                        <a href="#">تماس با ما</a>
+                        <a href="<?php echo home_url('/contact-us/', true); ?>">تماس با ما</a>
                     </li>
                 </ul>
             </div>

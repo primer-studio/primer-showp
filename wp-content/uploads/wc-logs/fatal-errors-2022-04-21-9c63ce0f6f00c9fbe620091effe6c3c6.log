@@ -59,3 +59,127 @@ Stack trace:
 #15 {main}
   thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 185
 
+2022-04-21T16:43:34+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Payment_Gateways::WC_NextPageObject() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php:16
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#2 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\xampp\htdocs\ketabShop\wp-includes\shortcodes.php(356): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\xampp\htdocs\ketabShop\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): do_shortcode('[woocommerce_ch...')
+#9 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#10 C:\xampp\htdocs\ketabShop\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#11 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\page.php(9): the_content()
+#12 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 16
+
+2022-04-21T16:44:39+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Payment_Gateways::WC_NextPay() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php:16
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#2 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\xampp\htdocs\ketabShop\wp-includes\shortcodes.php(356): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\xampp\htdocs\ketabShop\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): do_shortcode('[woocommerce_ch...')
+#9 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#10 C:\xampp\htdocs\ketabShop\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#11 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\page.php(9): the_content()
+#12 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 16
+
+2022-04-21T18:30:59+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php:11
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php(32): helper_get_product_taxonomies(Object(WC_Product_Simple), 'translators')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php روی خط 11
+
+2022-04-21T18:31:17+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php:11
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php(32): helper_get_product_taxonomies(Object(WC_Product_Simple), 'translators')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php روی خط 11
+
+2022-04-21T18:31:27+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php:11
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php(32): helper_get_product_taxonomies(Object(WC_Product_Simple), 'translators')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php روی خط 11
+
+2022-04-21T18:31:30+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php:11
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php(32): helper_get_product_taxonomies(Object(WC_Product_Simple), 'translators')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php روی خط 11
+
+2022-04-21T18:32:12+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php:11
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php(32): helper_get_product_taxonomies(Object(WC_Product_Simple), 'translators')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php روی خط 11
+
+2022-04-21T18:32:50+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php:11
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\archive-product.php(32): helper_get_product_taxonomies(Object(WC_Product_Simple), 'translators')
+#1 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\helpers.php روی خط 11
+
+2022-04-21T18:38:23+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php:19
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php روی خط 19
+
+2022-04-21T18:38:35+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php:18
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php روی خط 18
+
+2022-04-21T18:41:00+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php:5
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php روی خط 5
+
+2022-04-21T19:29:18+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php روی خط 20
+
+2022-04-21T19:29:30+00:00 CRITICAL syntax error, unexpected token "echo", expecting ")" در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php روی خط 23
+
+2022-04-21T19:32:43+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\taxonomy-authors.php روی خط 19
+

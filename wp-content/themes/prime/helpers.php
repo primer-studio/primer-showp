@@ -28,3 +28,8 @@
     function helper_is_product_purchasable ($product_object) {
         return ($product_object->get_price() != '' && $product_object->is_in_stock()) ? true : false ;
     }
+
+    function helper_get_taxonomy_archive_link( $taxonomy ) {
+        $tax = get_taxonomy( $taxonomy ) ;
+        return get_bloginfo( 'url' ) . '/' . $tax->rewrite['slug'];
+    }

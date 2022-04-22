@@ -16,25 +16,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import "template-parts/assets/Fonts/Pelak/pelak.css";
 @import "custom.css";
 
-.author-bibliography-item:last-child{
-    border-bottom: none;
-}
-
-.author-book-title h5{
-    font-size: 32px;
-    font-weight: normal;
-}
-
-.author-book-title h5::before{
-    content: "";
-    width: 20px; height: 20px;
-    background-color: var(--main-color-blue);
-    display: inline-block;
-    vertical-align: sub;
-    margin-left: 30px;
-}
-
-
 :root{
     --main-color-gold: #CBA044;
     --main-color-blue: #00A5AB;
@@ -716,6 +697,25 @@ main{
     border-bottom: 3px solid #DBDBDB;
 }
 
+.author-bibliography-item:last-child{
+    border-bottom: none;
+}
+
+.author-book-title h5{
+    font-size: 32px;
+    font-weight: normal;
+}
+
+
+.author-book-title h5::before{
+    content: "";
+    width: 20px; height: 20px;
+    background-color: var(--main-color-blue);
+    display: inline-block;
+    vertical-align: sub;
+    margin-left: 30px;
+}
+
 
 
 /* Single Book */
@@ -871,7 +871,7 @@ main{
 
 /*** Data Entry ***/
 .data-entry-wrapper{
-    flex: 1 0 1200px;
+    flex: 1 0 auto;
     background-color: #FEFEFE;
     display: flex;
     flex-flow: row wrap;
@@ -922,7 +922,34 @@ main{
     margin-bottom: 15px
 }
 
-input[type=text] ,input[type=email]{
+input[type=text]{
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+    width: 250px; height: 50px;
+    background-color: var(--color-white);
+    padding: 15px;
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--color-black);
+    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+input[type=tel]{
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+    width: 250px; height: 50px;
+    background-color: var(--color-white);
+    padding: 15px;
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--color-black);
+    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+input[type=email]{
     border: none;
     outline: none;
     box-shadow: none;
@@ -1263,6 +1290,11 @@ footer::after{
     .book-id p::after{
         width: 16px; height: 16px;
     }
+
+
+
+    /* Data */
+
 }
 
 
@@ -1316,6 +1348,22 @@ footer::after{
     }
     .shop-btn img{
         width: 22px;
+    }
+
+
+    /* data */
+    .data-entry-wrapper{
+        flex-flow: column wrap;
+        margin: 0px;
+    }
+
+    .data-entry-right{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .data-entry-left{
+        width: 100%;
     }
 
 
@@ -1498,5 +1546,17 @@ footer::after{
         margin: 0px 10px;
     }
 
+
+    /* Data */
+    .data-entry-wrapper{
+        padding: 20px 0px;
+    }
+    .form-row-double{
+        flex-flow: column wrap !important;
+    }
+
+    input[type=text]{
+        width: 100%;
+    }
 
 }

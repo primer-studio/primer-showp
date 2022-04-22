@@ -9,7 +9,7 @@ function irancitylist(state)
             options[0] = new Option('لطفا استان را انتخاب نمایید' , '0');
         }
 
-        if(state == 'تهران')
+        if(state == 'THR')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('احمد آباد مستوفی' , 'احمد آباد مستوفی');
@@ -85,7 +85,7 @@ function irancitylist(state)
             options[71] = new Option('ورامين' , 'ورامين');
             options[72] = new Option('وهن آباد' , 'وهن آباد');
         }
-        if(state == 'گیلان')
+        if(state == 'GIL')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('احمد سرگوراب' , 'احمد سرگوراب');
@@ -156,7 +156,7 @@ function irancitylist(state)
             options[66] = new Option('واجارگاه' , 'واجارگاه');
             options[67] = new Option('چمخاله' , 'چمخاله');
         }
-        if(state == 'آذربایجان شرقی')
+        if(state == 'EAZ')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('ابشاحمد' , 'ابشاحمد');
@@ -212,7 +212,7 @@ function irancitylist(state)
             options[51] = new Option('هوراند' , 'هوراند');
             options[52] = new Option('ورزقان' , 'ورزقان');
         }
-        if(state == 'خوزستان')
+        if(state == 'KHZ')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('اروند كنار' , 'اروند كنار');
@@ -257,7 +257,7 @@ function irancitylist(state)
             options[40] = new Option('هويزه' , 'هويزه');
             options[41] = new Option('ويس' , 'ويس');
         }
-        if(state == 'فارس')
+        if(state == 'FRS')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option(' بيضا' , 'بيضا');
@@ -334,7 +334,7 @@ function irancitylist(state)
             options[72] = new Option('نی ريز' , 'نی ريز');
             options[73] = new Option('وراوی' , 'وراوی');
         }
-        if(state == 'اصفهان')
+        if(state == 'ESF')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('ابريشم' , 'ابريشم');
@@ -428,7 +428,7 @@ function irancitylist(state)
             options[89] = new Option('ورنامخواست' , 'ورنامخواست');
             options[90] = new Option('ویلاشهر' , 'ویلاشهر');
         }
-        if(state == 'خراسان رضوی')
+        if(state == 'RKH')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('ابدال آباد' , 'ابدال آباد');
@@ -486,7 +486,7 @@ function irancitylist(state)
             options[53] = new Option('نيشابور' , 'نيشابور');
             options[54] = new Option('نيل شهر' , 'نيل شهر');
         }
-        if(state == 'قزوین')
+        if(state == 'GZN')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('َآوج' , 'َآوج');
@@ -515,7 +515,7 @@ function irancitylist(state)
             options[24] = new Option('معلم كلايه' , 'معلم كلايه');
             options[25] = new Option('نرجه' , 'نرجه');
         }
-        if(state == 'سمنان')
+        if(state == 'SMN')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('ارادان' , 'ارادان');
@@ -536,7 +536,7 @@ function irancitylist(state)
             options[16] = new Option('ميامی' , 'ميامی');
             options[17] = new Option('ميغان' , 'ميغان');
         }
-        if(state == 'قم')
+        if(state == 'QHM')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('دستجرد' , 'دستجرد');
@@ -546,7 +546,7 @@ function irancitylist(state)
             options[5] = new Option('قنوات' , 'قنوات');
             options[6] = new Option('كهک' , 'كهک');
         }
-        if(state == 'مرکزی')
+        if(state == 'MKZ')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('اراک' , 'اراک');
@@ -573,7 +573,7 @@ function irancitylist(state)
             options[22] = new Option('ميلاجرد' , 'ميلاجرد');
             options[23] = new Option('هندودر' , 'هندودر');
         }
-        if(state == 'زنجان')
+        if(state == 'ZJN')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('آب بر ـ طارم' , 'آب بر ـ طارم');
@@ -596,7 +596,7 @@ function irancitylist(state)
             options[18] = new Option('همايون' , 'همايون');
             options[19] = new Option('هيدج' , 'هيدج');
         }
-        if(state == 'مازندران')
+        if(state == 'MZN')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('اسلام آباد' , 'اسلام آباد');
@@ -649,7 +649,7 @@ function irancitylist(state)
             options[48] = new Option('نور' , 'نور');
             options[49] = new Option('نوشهر' , 'نوشهر');
         }
-        if(state == 'گلستان')
+        if(state == 'GLS')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('انبار آلوم' , 'انبار آلوم');
@@ -673,7 +673,7 @@ function irancitylist(state)
             options[19] = new Option('مراوه تپه' , 'مراوه تپه');
             options[20] = new Option('مينودشت' , 'مينودشت');
         }
-        if(state == 'اردبیل')
+        if(state == 'ADL')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('ابی بيگلو' , 'ابی بيگلو');
@@ -696,7 +696,7 @@ function irancitylist(state)
             options[18] = new Option('نير' , 'نير');
             options[19] = new Option('هشتجين' , 'هشتجين');
         }
-        if(state == 'آذربایجان غربی')
+        if(state == 'WAZ')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('اروميه' , 'اروميه');
@@ -735,7 +735,7 @@ function irancitylist(state)
             options[34] = new Option('نقده' , 'نقده');
             options[35] = new Option('نوشين شهر' , 'نوشين شهر');
         }
-        if(state == 'همدان')
+        if(state == 'HDN')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('ازندريان' , 'ازندريان');
@@ -760,7 +760,7 @@ function irancitylist(state)
             options[20] = new Option('نهاوند' , 'نهاوند');
             options[21] = new Option('همدان' , 'همدان');
         }
-        if(state == 'کردستان')
+        if(state == 'KRD')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('اورامانتخت' , 'اورامانتخت');
@@ -779,7 +779,7 @@ function irancitylist(state)
             options[14] = new Option('مريوان' , 'مريوان');
             options[15] = new Option('موچش' , 'موچش');
         }
-        if(state == 'کرمانشاه')
+        if(state == 'KRH')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('اسلام آباد غرب' , 'اسلام آباد غرب');
@@ -804,7 +804,7 @@ function irancitylist(state)
             options[20] = new Option('هرسين' , 'هرسين');
             options[21] = new Option('هلشی' , 'هلشی');
         }
-        if(state == 'لرستان')
+        if(state == 'LRS')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('ازنا' , 'ازنا');
@@ -827,7 +827,7 @@ function irancitylist(state)
             options[18] = new Option('نورآباد ـ دلفان' , 'نورآباد ـ دلفان');
             options[19] = new Option('واشيان نصيرتپه' , 'واشيان نصيرتپه');
         }
-        if(state == 'بوشهر')
+        if(state == 'BHR')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('ابدان' , 'ابدان');
@@ -861,7 +861,7 @@ function irancitylist(state)
             options[29] = new Option('نخل تقی' , 'نخل تقی');
             options[30] = new Option('وحدتيه' , 'وحدتيه');
         }
-        if(state == 'کرمان')
+        if(state == 'KRN')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('اختيارآباد' , 'اختيارآباد');
@@ -912,7 +912,7 @@ function irancitylist(state)
             options[46] = new Option('نجف شهر' , 'نجف شهر');
             options[47] = new Option('نگار' , 'نگار');
         }
-        if(state == 'هرمزگان')
+        if(state == 'HRZ')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('ابوموسی' , 'ابوموسی');
@@ -949,7 +949,7 @@ function irancitylist(state)
             options[32] = new Option('كيش' , 'كيش');
             options[33] = new Option('ميناب' , 'ميناب');
         }
-        if(state == 'چهارمحال و بختیاری')
+        if(state == 'CHB')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('اردل' , 'اردل');
@@ -982,7 +982,7 @@ function irancitylist(state)
             options[28] = new Option('هفشجان' , 'هفشجان');
             options[29] = new Option('وردنجان' , 'وردنجان');
         }
-        if(state == 'یزد')
+        if(state == 'YZD')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('ابركوه' , 'ابركوه');
@@ -1006,7 +1006,7 @@ function irancitylist(state)
             options[19] = new Option('هرات ـ خاتم' , 'هرات ـ خاتم');
             options[20] = new Option('يزد' , 'يزد');
         }
-        if(state == 'سیستان و بلوچستان')
+        if(state == 'SBN')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('اسپكه' , 'اسپكه');
@@ -1045,7 +1045,7 @@ function irancitylist(state)
             options[34] = new Option('نيک شهر' , 'نيک شهر');
             options[35] = new Option('هيدوچ' , 'هيدوچ');
         }
-        if(state == 'ایلام')
+        if(state == 'ILM')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('اركواز' , 'اركواز');
@@ -1068,7 +1068,7 @@ function irancitylist(state)
             options[18] = new Option('موسيان' , 'موسيان');
             options[19] = new Option('ميمه' , 'ميمه');
         }
-        if(state == 'کهگلویه و بویراحمد')
+        if(state == 'KBD')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('باشت' , 'باشت');
@@ -1086,7 +1086,7 @@ function irancitylist(state)
             options[13] = new Option('مادوان' , 'مادوان');
             options[14] = new Option('ياسوج' , 'ياسوج');
         }
-        if(state == 'خراسان شمالی')
+        if(state == 'NKH')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('اسفراين' , 'اسفراين');
@@ -1101,7 +1101,7 @@ function irancitylist(state)
             options[10] = new Option('فاروج' , 'فاروج');
             options[11] = new Option('گرمه' , 'گرمه');
         }
-        if(state == 'خراسان جنوبی')
+        if(state == 'SKH')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('ارسک' , 'ارسک');
@@ -1124,7 +1124,7 @@ function irancitylist(state)
             options[18] = new Option('نهبندان' , 'نهبندان');
             options[19] = new Option('نیمبلوک' , 'نیمبلوک');
         }
-        if(state == 'البرز')
+        if(state == 'SKH')
         {
             options[0] = new Option('لطفا شهر را انتخاب نمایید' , '0');
             options[1] = new Option('اشتهارد' , 'اشتهارد');

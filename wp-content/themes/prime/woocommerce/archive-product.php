@@ -22,7 +22,9 @@
                         </p>
                     </div>
                     <div class="book-img text-align-center">
+                        <a href="<?php echo $product->get_permalink(); ?>">
                         <?php echo $product->get_image(null, ['width' => 'auto', 'height' => '100%']); ?>
+                        </a>
                     </div>
                     <div class="book-info">
 						<div class="book-title">
@@ -31,12 +33,12 @@
                             $author = helper_get_product_taxonomies($product, 'authors');
                             $translator = helper_get_product_taxonomies($product, 'translators');
                             ?>
-                            <a href="<?php echo $author['link']; ?>"><?php echo $author['name']; ?></a>
+<!--                            <a href="--><?php //echo $author['link']; ?><!--">--><?php //echo $author['name']; ?><!--</a>-->
 						</div>
 						<div class="book-author">
-                            <a href="<?php echo $translator['link']; ?>">
+                            <a href="<?php echo $author['link']; ?>">
                                 <h3>
-							    <?php echo $translator['name']; ?>
+							    <?php echo $author['name']; ?>
 							    </h3>
                             </a>
 						</div>

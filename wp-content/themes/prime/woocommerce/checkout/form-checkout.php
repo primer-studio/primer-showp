@@ -21,7 +21,7 @@ get_header();
     <div id="main-wrapper" class="wrapper">
         <div class="data-entry-wrapper">
             <?php
-//                $wc = New WC_Checkout();
+            //                $wc = New WC_Checkout();
             ?>
             <div class="data-entry-right">
                 <div class="input-wrappers">
@@ -32,13 +32,13 @@ get_header();
                                 <label for="name">
                                     نام
                                 </label>
-                                <input required type="text" name="billing_first_name" id="billing_first_name" placeholder=""  value="" autocomplete="given-name">
+                                <input require type="text" class="input-text " name="billing_first_name" id="billing_first_name" placeholder="" value="" autocomplete="given-name">
                             </div>
                             <div class="form-row">
                                 <label for="f-name">
                                     نام خانوادگی
                                 </label>
-                                <input required type="text" name="billing_last_name" id="billing_last_name" placeholder=""  value="" autocomplete="family-name">
+                                <input require type="text" class="input-text " name="billing_last_name" id="billing_last_name" placeholder="" value="" autocomplete="family-name">
                             </div>
                         </div>
                         <div class="form-row-double">
@@ -46,60 +46,73 @@ get_header();
                                 <label>
                                     شماره تلفن همراه:
                                 </label>
-                                <input required type="text" name="billing_phone" id="billing_phone">
+                                <input type="tel" class="input-text " name="billing_phone" id="billing_phone" placeholder="" value="" autocomplete="tel">
                             </div>
                             <div class="form-row">
                                 <label>
                                     ایمیل:
                                 </label>
-                                <input required type="email" name="billing_email" id="billing_email">
+                                <input type="email" class="input-text " name="billing_email" id="billing_email" placeholder="" autocomplete="email username">
                             </div>
                         </div>
                         <div class="form-row-double">
-
+                            <input type="hidden" name="billing_country" id="billing_country" value="IR" autocomplete="country" class="country_to_state" readonly="readonly">
                             <div class="form-row">
                                 <label>
                                     استان
                                 </label>
-                                <select required name="billing_country" id="billing_country" onChange="irancitylist(this.value);">
+
+                                <!-- <select name="billing_state" id="billing_state" class="state_select " autocomplete="address-level1" data-placeholder="یک گزینه انتخاب نمائید…" data-input-classes="" data-label="استان">
+						<option value="">یک گزینه انتخاب نمائید…</option><option value="KHZ">خوزستان</option><option value="THR">تهران</option><option value="ILM">ایلام</option><option value="BHR">بوشهر</option><option value="ADL" selected="selected">اردبیل</option><option value="ESF">اصفهان</option><option value="YZD">یزد</option><option value="KRH">کرمانشاه</option><option value="KRN">کرمان</option><option value="HDN">همدان</option><option value="GZN">قزوین</option><option value="ZJN">زنجان</option><option value="LRS">لرستان</option><option value="ABZ">البرز</option><option value="EAZ">آذربایجان شرقی</option><option value="WAZ">آذربایجان غربی</option><option value="CHB">چهارمحال و بختیاری</option><option value="SKH">خراسان جنوبی</option><option value="RKH">خراسان رضوی</option><option value="NKH">خراسان شمالی</option><option value="SMN">سمنان</option><option value="FRS">فارس</option><option value="QHM">قم</option><option value="KRD">کردستان</option><option value="KBD">کهگیلویه و بویراحمد</option><option value="GLS">گلستان</option><option value="GIL">گیلان</option><option value="MZN">مازندران</option><option value="MKZ">مرکزی</option><option value="HRZ">هرمزگان</option><option value="SBN">سیستان و بلوچستان</option></select> -->
+
+
+                                <!-- Ali's Custom -->
+                                <select required name="billing_state" id="billing_state" onChange="irancitylist(this.value);">
                                     <option value="0">لطفا استان را انتخاب نمایید</option>
-                                    <option value="تهران">تهران</option>
-                                    <option value="گیلان">گیلان</option>
-                                    <option value="آذربایجان شرقی">آذربایجان شرقی</option>
-                                    <option value="خوزستان">خوزستان</option>
-                                    <option value="فارس">فارس</option>
-                                    <option value="اصفهان">اصفهان</option>
-                                    <option value="خراسان رضوی">خراسان رضوی</option>
-                                    <option value="قزوین">قزوین</option>
-                                    <option value="سمنان">سمنان</option>
-                                    <option value="قم">قم</option>
-                                    <option value="مرکزی">مرکزی</option>
-                                    <option value="زنجان">زنجان</option>
-                                    <option value="مازندران">مازندران</option>
-                                    <option value="گلستان">گلستان</option>
-                                    <option value="اردبیل">اردبیل</option>
-                                    <option value="آذربایجان غربی">آذربایجان غربی</option>
-                                    <option value="همدان">همدان</option>
-                                    <option value="کردستان">کردستان</option>
-                                    <option value="کرمانشاه">کرمانشاه</option>
-                                    <option value="لرستان">لرستان</option>
-                                    <option value="بوشهر">بوشهر</option>
-                                    <option value="کرمان">کرمان</option>
-                                    <option value="هرمزگان">هرمزگان</option>
-                                    <option value="چهارمحال و بختیاری">چهارمحال و بختیاری</option>
-                                    <option value="یزد">یزد</option>
-                                    <option value="سیستان و بلوچستان">سیستان و بلوچستان</option>
-                                    <option value="ایلام">ایلام</option>
-                                    <option value="کهگلویه و بویراحمد">کهگلویه و بویراحمد</option>
-                                    <option value="خراسان شمالی">خراسان شمالی</option>
-                                    <option value="خراسان جنوبی">خراسان جنوبی</option>
-                                    <option value="البرز">البرز</option>
+                                    <option value="THR">تهران</option>
+                                    <option value="GIL">گیلان</option>
+                                    <option value="EAZ">آذربایجان شرقی</option>
+                                    <option value="KHZ">خوزستان</option>
+                                    <option value="FRS">فارس</option>
+                                    <option value="ESF">اصفهان</option>
+                                    <option value="RKH">خراسان رضوی</option>
+                                    <option value="GZN">قزوین</option>
+                                    <option value="SMN">سمنان</option>
+                                    <option value="QHM">قم</option>
+                                    <option value="MKZ">مرکزی</option>
+                                    <option value="ZJN">زنجان</option>
+                                    <option value="MZN">مازندران</option>
+                                    <option value="GLS">گلستان</option>
+                                    <option value="ADL">اردبیل</option>
+                                    <option value="WAZ">آذربایجان غربی</option>
+                                    <option value="HDN">همدان</option>
+                                    <option value="KRD">کردستان</option>
+                                    <option value="KRH">کرمانشاه</option>
+                                    <option value="LRS">لرستان</option>
+                                    <option value="BHR">بوشهر</option>
+                                    <option value="KRN">کرمان</option>
+                                    <option value="HRZ">هرمزگان</option>
+                                    <option value="CHB">چهارمحال و بختیاری</option>
+                                    <option value="YZD">یزد</option>
+                                    <option value="SBN">سیستان و بلوچستان</option>
+                                    <option value="ILM">ایلام</option>
+                                    <option value="KBD">کهگلویه و بویراحمد</option>
+                                    <option value="NKH">خراسان شمالی</option>
+                                    <option value="SKH">خراسان جنوبی</option>
+                                    <option value="ABZ">البرز</option>
                                 </select>
+
+
                             </div>
                             <div class="form-row">
                                 <label>
                                     شهر:
                                 </label>
+
+
+                                <!-- <input type="text" class="input-text " name="billing_city" id="billing_city" placeholder="" value="asas" autocomplete="address-level2"> -->
+
+                                <!-- Ali's Custom -->
                                 <select required name="billing_city" id="billing_city">
                                     <option value="0">لطفا استان را انتخاب نمایید</option>
                                 </select>
@@ -110,7 +123,7 @@ get_header();
                                 <label>
                                     کد پستی:
                                 </label>
-                                <input required type="text" name="billing_postcode" id="billing_postcode">
+                                <input type="text" class="input-text " name="billing_postcode" id="billing_postcode" placeholder="" value="" autocomplete="postal-code">
                                 <br>
                                 <br>
                                 <div class="form-row-checkbox">
@@ -124,8 +137,16 @@ get_header();
                                 <label>
                                     آدرس:
                                 </label>
-                                <textarea rows="5" cols="35" name="billing_address_1" id="billing_address_1">
-                            </textarea>
+                                <input type="text" class="input-text " name="billing_address_1" id="billing_address_1" placeholder="نام خیابان و پلاک خانه" value="" autocomplete="address-line1">
+
+                                <?php wp_nonce_field( 'woocommerce-process-checkout-nonce' ); ?>
+
+                                <?php wp_referer_field(); ?>
+                            </div>
+                            <div class="form-row">
+                                <div style="display: block; width: 100%; margin-top: 1%">
+                                    <label for=""> <input id="payment_method_WC_NextPay" type="radio" class="input-radio" name="payment_method" value="WC_NextPay" checked="checked" data-order_button_text=""> پرداخت امن نکست‌پی</label>
+                                </div>
                             </div>
                         </div>
                     </form>
@@ -148,15 +169,15 @@ get_header();
                             $link = $product->get_permalink( $cart_item );
                             $thumbnail  = get_the_post_thumbnail_url( $product_id );
                             $remove_url = WC()->cart->get_remove_url( $cart_item_key );
-                        ?>
-                        <div class="invoice-item">
-                            <p>
-                                <a href="<?php echo $link; ?>" target="_blank"><?php echo $product->name; ?></a> <span> - <?php echo str_en_to_fa(number_format( (float) $quantity)); ?></span>                            </p>
-                            <div class="doted"></div>
-                            <p>
-                                <?php echo str_en_to_fa(number_format( (float) $price_without_unit))  . ' ' . get_woocommerce_currency_symbol(); ?>
-                            </p>
-                        </div>
+                            ?>
+                            <div class="invoice-item">
+                                <p>
+                                    <a href="<?php echo $link; ?>" target="_blank"><?php echo $product->name; ?></a> <span> - <?php echo str_en_to_fa(number_format( (float) $quantity)); ?></span>                            </p>
+                                <div class="doted"></div>
+                                <p>
+                                    <?php echo str_en_to_fa(number_format( (float) $price_without_unit))  . ' ' . get_woocommerce_currency_symbol(); ?>
+                                </p>
+                            </div>
                         <?php endforeach; ?>
                         <hr>
                         <div class="invoice-item">
@@ -171,10 +192,10 @@ get_header();
                     </div>
                 </div>
                 <div class="invoice-btn-wrapper">
-<!--                    <div class="pay-btn" style="background: var(--main-color-gold)">-->
-<!--                        <p style="cursor: pointer" onclick="document.forms[0].submit()">ورود به صفحه پرداخت</p>-->
-<!--                    </div>-->
-                    <input class="pay-btn" type="submit" form="checkout" style="background: var(--main-color-gold); font-size: 24px; color: white; width: 100%; border: none; cursor:pointer;" value="ورود به صفحه پرداخت">
+                    <!--                    <div class="pay-btn" style="background: var(--main-color-gold)">-->
+                    <!--                        <p style="cursor: pointer" onclick="document.forms[0].submit()">ورود به صفحه پرداخت</p>-->
+                    <!--                    </div>-->
+                    <button form="checkout" type="submit" style="font-size: 24px; background: var(--main-color-gold); width: 100%; color: white; border: none" class="pay-btn alt" name="woocommerce_checkout_place_order" id="place_order" value="ثبت سفارش" data-value="ثبت سفارش">ثبت سفارش</button>
                     <div class="cancel-btn">
                         <p>لغو سفارش خرید</p>
                     </div>
