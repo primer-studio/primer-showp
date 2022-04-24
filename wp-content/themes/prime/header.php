@@ -62,7 +62,7 @@
         </div>
         <div class="header-right">
             <div class="header-logo">
-                <img src="<?php echo get_stylesheet_directory_uri().'/template-parts/assets/img/Logo-Header.svg'; ?>"
+                <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/Logo-Header.svg'; ?>"
                      alt="لوگو انتشارات اهل قلم"/>
             </div>
             <div class="navbar">
@@ -71,7 +71,7 @@
                         <a href="<?php echo home_url(null, true) ?>">صفحه اصلی</a>
                     </li>
                     <li>
-                        <a href="#">کتاب ها</a>
+                        <a href="<?php echo home_url(null, true) ?>">کتاب ها</a>
                     </li>
                     <li>
                         <a href="<?php echo home_url('/authors/', true); ?>">پدید آورندگان</a>
@@ -109,7 +109,7 @@
         <div class="header-right">
             <a href="<?php echo home_url(null, true) ?>">
                 <div class="header-logo">
-                    <img src="<?php echo get_stylesheet_directory_uri().'/template-parts/assets/img/Logo-Header.svg'; ?>"
+                    <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/Logo-Header.svg'; ?>"
                          alt="لوگو انتشارات اهل قلم"/>
                 </div>
             </a>
@@ -123,44 +123,52 @@
             </div>
             <div class="mobile-nav-btn-wrap">
                 <div class="register-btn btn btn-small btn-type-1">
-                    <a href="#">
-                        <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/Register-icon.svg'; ?>">
-                        ثبت نام
-                    </a>
+                    <?php if (!is_user_logged_in()): ?>
+                        <a href="<?php echo wp_registration_url(); ?>">
+                            <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/Register-icon.svg'; ?>"
+                                 alt="آیکون ثبت نام">
+                            ثبت نام
+                        </a>
+                    <?php else: ?>
+                        <a href="#">
+                            <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/Register-icon.svg'; ?>"
+                                 alt="آیکون ثبت نام">
+                            <?php echo wp_get_current_user()->first_name; ?>
+                        </a>
+                    <?php endif; ?>
                 </div>
                 <div class="login-btn btn btn-small btn-type-2">
-                    <a href="#">
-                        <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/login-icon.svg'; ?>">
-                        ورود
-                    </a>
+                    <?php if (!is_user_logged_in()): ?>
+                        <a href="<?php echo wp_login_url(); ?>">
+                            <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/login-icon.svg'; ?>"
+                                 alt="آیکون ثبت نام">
+                            ورود
+                        </a>
+                    <?php else: ?>
+                        <a href="<?php echo wp_logout_url(); ?>">
+                            <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/login-icon.svg'; ?>"
+                                 alt="آیکون ثبت نام">
+                            خروج
+                        </a>
+                    <?php endif; ?>
                 </div>
             </div>
             <div class="mobile-nav">
                 <ul>
                     <li>
-                        <a href="#">
-                            صفحه اصلی
-                        </a>
+                        <a href="<?php echo home_url(null, true) ?>">صفحه اصلی</a>
                     </li>
                     <li>
-                        <a href="#">
-                            کتاب ها
-                        </a>
+                        <a href="<?php echo home_url(null, true) ?>">کتاب ها</a>
                     </li>
                     <li>
-                        <a href="#">
-                            پدید آورندگان
-                        </a>
+                        <a href="<?php echo home_url('/authors/', true); ?>">پدید آورندگان</a>
                     </li>
                     <li>
-                        <a href="#">
-                            درباره ما
-                        </a>
+                        <a href="<?php echo home_url('/about-us/', true); ?>">درباره ما</a>
                     </li>
                     <li>
-                        <a href="#">
-                            تماس با ما
-                        </a>
+                        <a href="<?php echo home_url('/contact-us/', true); ?>">تماس با ما</a>
                     </li>
                 </ul>
             </div>
