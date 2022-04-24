@@ -33,3 +33,11 @@
         $tax = get_taxonomy( $taxonomy ) ;
         return get_bloginfo( 'url' ) . '/' . $tax->rewrite['slug'];
     }
+
+    function helper_get_tax_terms ( $taxonomy ) {
+        $terms = get_terms( array(
+            'taxonomy' => 'authors',
+            'hide_empty' => false,
+        ) );
+        return $terms;
+    }

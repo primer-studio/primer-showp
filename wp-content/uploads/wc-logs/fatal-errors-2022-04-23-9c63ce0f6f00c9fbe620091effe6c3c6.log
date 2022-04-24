@@ -1,0 +1,320 @@
+2022-04-23T07:31:10+00:00 CRITICAL Uncaught Error: Call to a member function is_registration_enabled() on null in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php:10
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php(92): wc_get_template('checkout/form-c...')
+#2 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): prime_set_template('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 10
+
+2022-04-23T07:31:21+00:00 CRITICAL Uncaught Error: Call to a member function is_registration_enabled() on null in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php:10
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php(92): wc_get_template('/checkout/form-...')
+#2 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): prime_set_template('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 10
+
+2022-04-23T07:31:22+00:00 CRITICAL Uncaught Error: Call to a member function is_registration_enabled() on null in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php:10
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php(92): wc_get_template('/checkout/form-...')
+#2 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): prime_set_template('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 10
+
+2022-04-23T07:31:40+00:00 CRITICAL Uncaught Error: Call to a member function is_registration_enabled() on null in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php:10
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php(92): wc_get_template('woocommerce/che...')
+#2 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): prime_set_template('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 10
+
+2022-04-23T07:31:50+00:00 CRITICAL Uncaught Error: Call to a member function is_registration_enabled() on null in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php:10
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php(92): wc_get_template('checkout/form-c...')
+#2 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): prime_set_template('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 10
+
+2022-04-23T07:32:03+00:00 CRITICAL Uncaught Error: Call to a member function is_registration_enabled() on null in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php:10
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php(92): wc_get_template('checkout/form-c...')
+#2 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): prime_set_template('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 10
+
+2022-04-23T08:13:07+00:00 CRITICAL syntax error, unexpected token "if", expecting "," or ";" در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 10
+
+2022-04-23T08:13:19+00:00 CRITICAL Uncaught Error: Call to a member function is_registration_enabled() on null in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php:10
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php(92): wc_get_template('checkout/form-c...')
+#2 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): prime_set_template('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 10
+
+2022-04-23T08:13:35+00:00 CRITICAL syntax error, unexpected token "=", expecting "," or ";" در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 8
+
+2022-04-23T08:13:43+00:00 CRITICAL Uncaught Error: Call to undefined function WC_Checkout() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php:8
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php(92): wc_get_template('checkout/form-c...')
+#2 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): prime_set_template('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 8
+
+2022-04-23T08:13:44+00:00 CRITICAL Uncaught Error: Call to undefined function WC_Checkout() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php:8
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php(92): wc_get_template('checkout/form-c...')
+#2 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): prime_set_template('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 8
+
+2022-04-23T08:13:50+00:00 CRITICAL Uncaught Error: Call to undefined function WC_Checkout() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php:7
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php(92): wc_get_template('checkout/form-c...')
+#2 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): prime_set_template('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 7
+
+2022-04-23T08:14:00+00:00 CRITICAL Uncaught Error: Call to a member function is_registration_enabled() on null in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php:10
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php(92): wc_get_template('checkout/form-c...')
+#2 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): prime_set_template('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 10
+
+2022-04-23T08:14:19+00:00 CRITICAL Uncaught Error: Call to undefined function WC_Checkout() in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php:2
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php(92): wc_get_template('checkout/form-c...')
+#2 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): prime_set_template('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 2
+
+2022-04-23T10:03:50+00:00 CRITICAL 'continue' not in the 'loop' or 'switch' context در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 92
+
+2022-04-23T10:04:16+00:00 CRITICAL Uncaught Error: Call to a member function is_registration_enabled() on null in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php:9
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php(92): wc_get_template('checkout/form-c...')
+#2 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): prime_set_template('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 9
+
+2022-04-23T10:14:19+00:00 CRITICAL Uncaught Error: Call to a member function is_registration_enabled() on null in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php:9
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php(92): wc_get_template('checkout/form-c...')
+#2 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): prime_set_template('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 9
+
+2022-04-23T10:15:07+00:00 CRITICAL syntax error, unexpected token ":", expecting ";" در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 91
+
+2022-04-23T10:16:50+00:00 CRITICAL Uncaught Error: Call to a member function is_registration_enabled() on null in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php:9
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php(95): wc_get_template('checkout/form-c...')
+#2 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): prime_set_template('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 9
+
+2022-04-23T10:17:15+00:00 CRITICAL Uncaught Error: Call to a member function is_registration_enabled() on null in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php:9
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php(95): wc_get_template('checkout/form-c...')
+#2 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): prime_set_template('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 9
+
+2022-04-23T10:19:54+00:00 CRITICAL Unclosed '{' on line 8 در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce\checkout\form-checkout.php روی خط 205
+
+2022-04-23T10:30:56+00:00 CRITICAL syntax error, unexpected token "}", expecting "elseif" or "else" or "endif" در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\woocommerce_support.php روی خط 103
+
+2022-04-23T21:18:26+00:00 CRITICAL Uncaught Error: Failed opening required 'short_codes.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\functions.php:11
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-settings.php(555): include()
+#1 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\functions.php روی خط 11
+
+2022-04-23T21:18:39+00:00 CRITICAL Uncaught Error: Failed opening required 'short_codes.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\functions.php:11
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-settings.php(555): include()
+#1 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\functions.php روی خط 11
+
+2022-04-23T21:18:42+00:00 CRITICAL Uncaught Error: Failed opening required 'short_codes.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\functions.php:11
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-settings.php(555): include()
+#1 C:\xampp\htdocs\ketabShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ketabShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ketabShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\functions.php روی خط 11
+
+2022-04-23T21:23:58+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\short_codes.php:8
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\shortcodes.php(356): authors_list('', '', 'render_authors_...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(render...', 'do_shortcode_ta...', '<p style="direc...')
+#3 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): do_shortcode('<p style="direc...')
+#4 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('<p style="direc...', Array)
+#5 C:\xampp\htdocs\ketabShop\wp-includes\post-template.php(253): apply_filters('the_content', '<p style="direc...')
+#6 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\page.php(12): the_content()
+#7 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\short_codes.php روی خط 8
+
+2022-04-23T21:24:14+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\short_codes.php:8
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\shortcodes.php(356): authors_list('', '', 'render_authors_...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(render...', 'do_shortcode_ta...', '<p style="direc...')
+#3 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): do_shortcode('<p style="direc...')
+#4 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('<p style="direc...', Array)
+#5 C:\xampp\htdocs\ketabShop\wp-includes\post-template.php(253): apply_filters('the_content', '<p style="direc...')
+#6 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\page.php(12): the_content()
+#7 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\short_codes.php روی خط 8
+
+2022-04-23T21:24:15+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\short_codes.php:8
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\shortcodes.php(356): authors_list('', '', 'render_authors_...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(render...', 'do_shortcode_ta...', '<p style="direc...')
+#3 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): do_shortcode('<p style="direc...')
+#4 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('<p style="direc...', Array)
+#5 C:\xampp\htdocs\ketabShop\wp-includes\post-template.php(253): apply_filters('the_content', '<p style="direc...')
+#6 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\page.php(12): the_content()
+#7 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\short_codes.php روی خط 8
+
+2022-04-23T21:26:46+00:00 CRITICAL syntax error, unexpected variable "$output" در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\short_codes.php روی خط 10
+
+2022-04-23T21:27:37+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\short_codes.php:10
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\shortcodes.php(356): authors_list('', '', 'render_authors_...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(render...', 'do_shortcode_ta...', '<p style="direc...')
+#3 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): do_shortcode('<p style="direc...')
+#4 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('<p style="direc...', Array)
+#5 C:\xampp\htdocs\ketabShop\wp-includes\post-template.php(253): apply_filters('the_content', '<p style="direc...')
+#6 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\page.php(12): the_content()
+#7 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\short_codes.php روی خط 10
+
+2022-04-23T21:27:46+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\ketabShop\wp-content\themes\prime\short_codes.php:9
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\shortcodes.php(356): authors_list('', '', 'render_authors_...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\ketabShop\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(render...', 'do_shortcode_ta...', '<p style="direc...')
+#3 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(307): do_shortcode('<p style="direc...')
+#4 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(189): WP_Hook->apply_filters('<p style="direc...', Array)
+#5 C:\xampp\htdocs\ketabShop\wp-includes\post-template.php(253): apply_filters('the_content', '<p style="direc...')
+#6 C:\xampp\htdocs\ketabShop\wp-content\themes\prime\page.php(12): the_content()
+#7 C:\xampp\htdocs\ketabShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ketabShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\ketabShop\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\short_codes.php روی خط 9
+
+2022-04-23T21:45:07+00:00 CRITICAL syntax error, unexpected token ":", expecting ";" در C:\xampp\htdocs\ketabShop\wp-content\themes\prime\header.php روی خط 60
+
+2022-04-23T21:47:33+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "my_login_logo" not found or invalid function name in C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\ketabShop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\ketabShop\wp-login.php(114): do_action('login_enqueue_s...')
+#3 C:\xampp\htdocs\ketabShop\wp-login.php(1371): login_header('\xD9\x88\xD8\xB1\xD9\x88\xD8\xAF', '', Object(WP_Error))
+#4 {main}
+  thrown در C:\xampp\htdocs\ketabShop\wp-includes\class-wp-hook.php روی خط 307
+

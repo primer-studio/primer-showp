@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo get_bloginfo(); ?></title>
-    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/template-parts/assets/js/main.js'; ?>"></script>
-    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/template-parts/assets/css/bootstrap.css'; ?>">
+    <script type="text/javascript"
+            src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/js/main.js'; ?>"></script>
+    <link rel="stylesheet"
+          href="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/css/bootstrap.css'; ?>">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="<?php echo get_template_directory_uri() . "/template-parts/assets/js/city.js"; ?>"></script>
@@ -19,7 +21,8 @@
             <a href="<?php echo wc_get_cart_url(); ?>">
                 <div class="shopping-bag">
                     <div class="shopping-bag-icon">
-                        <img src="<?php echo get_stylesheet_directory_uri().'/template-parts/assets/img/shopping-bag.svg'; ?>" alt="آیکون سبد خرید">
+                        <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/shopping-bag.svg'; ?>"
+                             alt="آیکون سبد خرید">
                     </div>
                     <div class="shopping-badge">
                         <i><?php echo str_en_to_fa(WC()->cart->get_cart_contents_count()); ?></i>
@@ -27,21 +30,40 @@
                 </div>
             </a>
             <div class="register-btn btn btn-small btn-type-1">
-                <a href="#">
-                    <img src="<?php echo get_stylesheet_directory_uri().'/template-parts/assets/img/Register-icon.svg'; ?>" alt="آیکون ثبت نام">
-                    ثبت نام
-                </a>
+                <?php if (!is_user_logged_in()): ?>
+                    <a href="<?php echo wp_registration_url(); ?>">
+                        <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/Register-icon.svg'; ?>"
+                             alt="آیکون ثبت نام">
+                        ثبت نام
+                    </a>
+                <?php else: ?>
+                    <a href="#">
+                        <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/Register-icon.svg'; ?>"
+                             alt="آیکون ثبت نام">
+                        <?php echo wp_get_current_user()->first_name; ?>
+                    </a>
+                <?php endif; ?>
             </div>
             <div class="login-btn btn btn-small btn-type-2">
-                <a href="#">
-                    <img src="<?php echo get_stylesheet_directory_uri().'/template-parts/assets/img/login-icon.svg'; ?>" alt="آیکون ثبت نام">
-                    ورود
-                </a>
+                <?php if (!is_user_logged_in()): ?>
+                    <a href="<?php echo wp_login_url(); ?>">
+                        <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/login-icon.svg'; ?>"
+                             alt="آیکون ثبت نام">
+                        ورود
+                    </a>
+                <?php else: ?>
+                    <a href="<?php echo wp_logout_url(); ?>">
+                        <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/login-icon.svg'; ?>"
+                             alt="آیکون ثبت نام">
+                        خروج
+                    </a>
+                <?php endif; ?>
             </div>
         </div>
         <div class="header-right">
             <div class="header-logo">
-                <img src="<?php echo get_stylesheet_directory_uri().'/template-parts/assets/img/Logo-Header.svg'; ?>" alt="لوگو انتشارات اهل قلم" />
+                <img src="<?php echo get_stylesheet_directory_uri().'/template-parts/assets/img/Logo-Header.svg'; ?>"
+                     alt="لوگو انتشارات اهل قلم"/>
             </div>
             <div class="navbar">
                 <ul>
@@ -85,9 +107,10 @@
             </a>
         </div>
         <div class="header-right">
-            <a href="#">
+            <a href="<?php echo home_url(null, true) ?>">
                 <div class="header-logo">
-                    <img src="assets/img/Logo-header.svg" alt="لوگو انتشارات اهل قلم" />
+                    <img src="<?php echo get_stylesheet_directory_uri().'/template-parts/assets/img/Logo-Header.svg'; ?>"
+                         alt="لوگو انتشارات اهل قلم"/>
                 </div>
             </a>
         </div>
@@ -95,7 +118,8 @@
     <div id="mobile-nav" class="mobile-nav-wrapper transition-300">
         <div class="mobile-nav-wrap">
             <div class="mobile-nav-logo">
-                <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/Mobile-Side-Nav-Logo.svg'; ?>" alt="انتشارات میراث اهل قلم">
+                <img src="<?php echo get_stylesheet_directory_uri() . '/template-parts/assets/img/Mobile-Side-Nav-Logo.svg'; ?>"
+                     alt="انتشارات میراث اهل قلم">
             </div>
             <div class="mobile-nav-btn-wrap">
                 <div class="register-btn btn btn-small btn-type-1">

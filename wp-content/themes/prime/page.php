@@ -1,20 +1,18 @@
 <?php get_header(); ?>
-<div id="content">
-<?php //get_sidebar(); ?>
-<div id="text">
-<!-- page content -->
-<?php //if (have_posts()) : ?>
-<?php //while (have_posts()) : the_post(); ?>
-<!--<h1>--><?php //the_title(); ?><!--</h1>-->
-<?php the_content(); ?>
-<?php //endwhile; ?>
-<?php //else : ?>
-<?php //_e('Sorry, no posts matched your criteria.'); ?>
-<?php //include (TEMPLATEPATH . "/searchform.php"); ?>
-<?php //endif; ?>
-</div>
-<div id="tag_cloud">
-<?php //wp_tag_cloud(''); ?>
-<!--</div>-->
-<!--</div>-->
+    <main>
+        <div id="main-wrapper" class="wrapper">
+            <div class="page-wrapper">
+                <div class="contact-us-title">
+                    <h1>
+                        <?php echo the_title(); ?>
+                    </h1>
+                </div>
+                <div class="contact-us-wrapper">
+                    <div class="simple-page-content">
+                        <?php echo the_content(); ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 <?php get_footer(); ?>

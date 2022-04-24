@@ -25,3 +25,45 @@
 /*.author-img img {*/
 /*    border-radius: 25px;*/
 /*}*/
+
+.border-rounded {
+    border-radius: 26px;
+}
+
+.about-us-title h1::before{
+    content: "";
+    width: 18px; height: 18px;
+    background-color: var(--main-color-gold);
+    display: inline-block;
+    margin-left: 10px;
+    /* vertical-align: sub; */
+}
+.simple-page-content {
+    background: #efefef;
+    width: 100%;
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+}
+.authors-list li::before{
+    content: "";
+    width: 10px; height: 10px;
+    background-color: var(--main-color-blue);
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 3px;
+    /* vertical-align: sub; */
+}
+.authors-list li {
+    margin-bottom: 2%;
+    padding-bottom: 1%;
+}
+.authors-list li::after {
+    content: "";
+    display: block;
+    width: 25px;
+    margin-bottom: 0.5%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid lightgrey;
+
+}

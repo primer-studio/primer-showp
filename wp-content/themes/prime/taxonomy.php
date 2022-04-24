@@ -1,2 +1,2 @@
 <?php
-return 'hi taxs'
+return 'hi taxs';

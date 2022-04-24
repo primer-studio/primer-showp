@@ -1,12 +1,10 @@
 <?php
-
 if (!defined('ABSPATH')) {
     exit;
 }
 
-//do_action( 'woocommerce_before_checkout_form', $checkout );
+do_action( 'woocommerce_before_checkout_form', $checkout );
 
-// If checkout registration is disabled and not logged in, the user cannot checkout.
 if (!$checkout->is_registration_enabled() && $checkout->is_registration_required() && !is_user_logged_in()) {
     echo esc_html(apply_filters('woocommerce_checkout_must_be_logged_in_message', __('You must be logged in to checkout.', 'woocommerce')));
     return;
@@ -138,10 +136,7 @@ get_header();
                                     آدرس:
                                 </label>
                                 <input type="text" class="input-text " name="billing_address_1" id="billing_address_1" placeholder="نام خیابان و پلاک خانه" value="" autocomplete="address-line1">
-
-                                <?php wp_nonce_field( 'woocommerce-process-checkout-nonce' ); ?>
-
-                                <?php wp_referer_field(); ?>
+                                <?php wp_nonce_field( 'woocommerce-process_checkout', 'woocommerce-process-checkout-nonce' ); ?>
                             </div>
                             <div class="form-row">
                                 <div style="display: block; width: 100%; margin-top: 1%">
@@ -164,7 +159,7 @@ get_header();
                             $quantity = $cart_item['quantity'];
                             $price = WC()->cart->get_product_price( $product );
                             $price_without_unit = $product->price;
-                            $cart_sum += $price_without_unit;
+                            $cart_sum += $price_without_unit*$quantity;
                             $subtotal = WC()->cart->get_product_subtotal( $product, $cart_item['quantity'] );
                             $link = $product->get_permalink( $cart_item );
                             $thumbnail  = get_the_post_thumbnail_url( $product_id );

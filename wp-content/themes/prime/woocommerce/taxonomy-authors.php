@@ -1,4 +1,5 @@
-<?php get_header(); ?>
+<?php get_header();
+?>
     <main>
         <div id="main-wrapper" class="wrapper">
             <div class="author-wrapper">
@@ -14,9 +15,9 @@
                     $image = (isset($image_data[0])) ? $image_data[0] : null;
                     if (!empty($image) && !is_null($image)):
                     ?>
-                    <img src="<?php echo esc_url( $image ); ?>" alt="<?php echo the_title(); ?>"/>
+                    <img class="border-rounded" src="<?php echo esc_url( $image ); ?>" alt="<?php echo the_title(); ?>"/>
                     <?php else: ?>
-                    <img src="https://via.placeholder.com/246"/>
+                    <img class="border-rounded" src="https://via.placeholder.com/246"/>
                     <?php endif; ?>
                 </div>
                 <div class="author-info">
